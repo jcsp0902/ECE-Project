@@ -5,6 +5,7 @@ Public Class Form1
     Dim comPORT As String
     Dim receivedData As String = ""
     Dim count As Integer
+    Dim time As Integer
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         WebKitBrowser1.Navigate("http://maps.google.com/maps?q=14%C2%B0+50%27+20.40%22+N,+120%C2%B0+44%27+41.48%22+E")
         Label1.Text = My.Settings.tra1id
@@ -107,41 +108,49 @@ Public Class Form1
         ElseIf Label9.Text = "22" Then
             PictureBox7.BackgroundImage = My.Resources.exclamation
         Else
-            Dim s As String = Label9.Text
-            ' Split string based on comma
+            If time = 30 Then
+                Dim s As String = Label9.Text
+                ' Split string based on comma
 
-            If Not s.Contains("$") Then
-                Dim words As String() = s.Split(New Char() {"*"c})
+                If Not s.Contains("$") Then
+                    Dim words As String() = s.Split(New Char() {"*"c})
 
-                ' Use For Each loop over words and display them
+                    ' Use For Each loop over words and display them
 
-                Dim word As String
-                For Each word In words
-                    If count = 0 Then
-                        Label1.Text = word
-                    ElseIf count = 1 Then
-                        Label2.Text = word
-                    ElseIf count = 2 Then
-                        Label3.Text = word
-                    ElseIf count = 3 Then
-                        Label44.Text = word
-                    ElseIf count = 4 Then
-                        Label45.Text = word
-                    ElseIf count = 5 Then
-                        Try
-                            If Not word = "" Then
-                                Label4.Text = word
-                            End If
+                    Dim word As String
+                    For Each word In words
+                        If count = 0 Then
+                            Label1.Text = word
+                        ElseIf count = 1 Then
+                            Label2.Text = word
+                        ElseIf count = 2 Then
+                            Label3.Text = word
+                        ElseIf count = 3 Then
+                            Label44.Text = word
+                        ElseIf count = 4 Then
+                            Label45.Text = word
+                        ElseIf count = 5 Then
+                            Try
+                                If Not word = "" Then
+                                    Label4.Text = word
+                                End If
 
-                        Catch ex As Exception
+                            Catch ex As Exception
 
-                        End Try
-                    Else
-                        count = 0
-                    End If
-                    count = count + 1
-                Next
+                            End Try
+                        Else
+                            count = 0
+                        End If
+                        count = count + 1
+                    Next
+                    MsgBox("yow")
+                End If
+                time = 0
+            Else
+                time = time + 1
+                MsgBox(time)
             End If
+
         End If
 
 

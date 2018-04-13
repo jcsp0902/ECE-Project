@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SplitString.exe" size="521176">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SplitString.exe" size="521688">
       <assemblyIdentity name="SplitString" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>sXIf/OtTO/siZ0hYR9nfDM2Vnma6VRk9vrgkEvg2xwU=</dsig:DigestValue>
+        <dsig:DigestValue>U8VniNJtMpX1bDQn3iHyyv4LutSNaGeYBQ5liTLD8ic=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

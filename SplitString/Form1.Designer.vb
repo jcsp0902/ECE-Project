@@ -33,6 +33,8 @@ Partial Class Form1
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label45 = New System.Windows.Forms.Label()
+        Me.Label44 = New System.Windows.Forms.Label()
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
@@ -87,8 +89,6 @@ Partial Class Form1
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Label43 = New System.Windows.Forms.Label()
-        Me.Label44 = New System.Windows.Forms.Label()
-        Me.Label45 = New System.Windows.Forms.Label()
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -164,6 +164,7 @@ Partial Class Form1
         '
         'Timer1
         '
+        Me.Timer1.Enabled = True
         Me.Timer1.Interval = 1000
         '
         'Label9
@@ -200,6 +201,24 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(403, 150)
         Me.Panel1.TabIndex = 11
         Me.Panel1.Visible = False
+        '
+        'Label45
+        '
+        Me.Label45.AutoSize = True
+        Me.Label45.Location = New System.Drawing.Point(293, 100)
+        Me.Label45.Name = "Label45"
+        Me.Label45.Size = New System.Drawing.Size(13, 13)
+        Me.Label45.TabIndex = 24
+        Me.Label45.Text = "0"
+        '
+        'Label44
+        '
+        Me.Label44.AutoSize = True
+        Me.Label44.Location = New System.Drawing.Point(172, 100)
+        Me.Label44.Name = "Label44"
+        Me.Label44.Size = New System.Drawing.Size(13, 13)
+        Me.Label44.TabIndex = 23
+        Me.Label44.Text = "0"
         '
         'PictureBox8
         '
@@ -758,24 +777,6 @@ Partial Class Form1
         Me.Label43.Size = New System.Drawing.Size(107, 20)
         Me.Label43.TabIndex = 21
         Me.Label43.Text = "TRACKER 1"
-        '
-        'Label44
-        '
-        Me.Label44.AutoSize = True
-        Me.Label44.Location = New System.Drawing.Point(172, 100)
-        Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(13, 13)
-        Me.Label44.TabIndex = 23
-        Me.Label44.Text = "0"
-        '
-        'Label45
-        '
-        Me.Label45.AutoSize = True
-        Me.Label45.Location = New System.Drawing.Point(293, 100)
-        Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(13, 13)
-        Me.Label45.TabIndex = 24
-        Me.Label45.Text = "0"
         '
         'Timer2
         '
