@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SplitString.exe" size="521688">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SplitString.exe" size="841688">
       <assemblyIdentity name="SplitString" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>U8VniNJtMpX1bDQn3iHyyv4LutSNaGeYBQ5liTLD8ic=</dsig:DigestValue>
+        <dsig:DigestValue>xVxeW88UlyJNEMYC4dSJCYy1PDSYBUEczEMXbjSZT5s=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -65,13 +65,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="SplitString.exe.config" size="1773">
+  <file name="SplitString.exe.config" size="2246">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>wk84J2gYZbHawdjjutZeVl/RTVc4h5OIH4JrPMYVidM=</dsig:DigestValue>
+      <dsig:DigestValue>CdcJGkGIO0+P7HGWHZ1EPJI4N8GNsfL+KBQGQovOchI=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

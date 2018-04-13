@@ -17,9 +17,18 @@
     End Sub
 
     Private Sub Panel2_Click(sender As Object, e As EventArgs) Handles Panel2.Click
-        Form1.Show()
+        If TextBox1.Text = "estef" And TextBox2.Text = "ganda" Then
 
-        Me.Close()
+            Form1.Show()
+
+            Me.Close()
+        Else
+            MsgBox("Wrong Username and password")
+        End If
+
+    End Sub
+
+    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
 
     End Sub
 End Class

@@ -35,7 +35,6 @@ Partial Class Form1
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label45 = New System.Windows.Forms.Label()
         Me.Label44 = New System.Windows.Forms.Label()
-        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.Label17 = New System.Windows.Forms.Label()
@@ -47,7 +46,6 @@ Partial Class Form1
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
         Me.PictureBox10 = New System.Windows.Forms.PictureBox()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -65,7 +63,6 @@ Partial Class Form1
         Me.Label27 = New System.Windows.Forms.Label()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
         Me.PictureBox12 = New System.Windows.Forms.PictureBox()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.Label29 = New System.Windows.Forms.Label()
@@ -90,16 +87,14 @@ Partial Class Form1
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Label43 = New System.Windows.Forms.Label()
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel3.SuspendLayout()
-        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -139,10 +134,9 @@ Partial Class Form1
         Me.Label4.AutoSize = True
         Me.Label4.Location = New System.Drawing.Point(152, 29)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(501, 13)
+        Me.Label4.Size = New System.Drawing.Size(0, 13)
         Me.Label4.TabIndex = 3
-        Me.Label4.Text = "http://maps.google.com/maps?q=14%C2%B0+50%27+20.40%22+N,+120%C2%B0+44%27+41.48%22" &
-    "+E"
+        Me.Label4.Visible = False
         '
         'Label7
         '
@@ -164,7 +158,6 @@ Partial Class Form1
         '
         'Timer1
         '
-        Me.Timer1.Enabled = True
         Me.Timer1.Interval = 1000
         '
         'Label9
@@ -181,7 +174,6 @@ Partial Class Form1
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel1.Controls.Add(Me.Label45)
         Me.Panel1.Controls.Add(Me.Label44)
-        Me.Panel1.Controls.Add(Me.PictureBox8)
         Me.Panel1.Controls.Add(Me.PictureBox7)
         Me.Panel1.Controls.Add(Me.PictureBox4)
         Me.Panel1.Controls.Add(Me.Label17)
@@ -220,21 +212,11 @@ Partial Class Form1
         Me.Label44.TabIndex = 23
         Me.Label44.Text = "0"
         '
-        'PictureBox8
-        '
-        Me.PictureBox8.BackgroundImage = Global.SplitString.My.Resources.Resources.Circle___black_simple_fullpage_svg
-        Me.PictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox8.Location = New System.Drawing.Point(353, 116)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(30, 30)
-        Me.PictureBox8.TabIndex = 22
-        Me.PictureBox8.TabStop = False
-        '
         'PictureBox7
         '
         Me.PictureBox7.BackgroundImage = Global.SplitString.My.Resources.Resources.Circle___black_simple_fullpage_svg
         Me.PictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox7.Location = New System.Drawing.Point(312, 116)
+        Me.PictureBox7.Location = New System.Drawing.Point(366, 116)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(30, 30)
         Me.PictureBox7.TabIndex = 21
@@ -332,7 +314,6 @@ Partial Class Form1
         'Panel2
         '
         Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel2.Controls.Add(Me.PictureBox9)
         Me.Panel2.Controls.Add(Me.PictureBox10)
         Me.Panel2.Controls.Add(Me.PictureBox5)
         Me.Panel2.Controls.Add(Me.Label5)
@@ -355,21 +336,11 @@ Partial Class Form1
         Me.Panel2.TabIndex = 19
         Me.Panel2.Visible = False
         '
-        'PictureBox9
-        '
-        Me.PictureBox9.BackgroundImage = Global.SplitString.My.Resources.Resources.Circle___black_simple_fullpage_svg
-        Me.PictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox9.Location = New System.Drawing.Point(353, 115)
-        Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(30, 30)
-        Me.PictureBox9.TabIndex = 24
-        Me.PictureBox9.TabStop = False
-        '
         'PictureBox10
         '
         Me.PictureBox10.BackgroundImage = Global.SplitString.My.Resources.Resources.Circle___black_simple_fullpage1
         Me.PictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox10.Location = New System.Drawing.Point(312, 115)
+        Me.PictureBox10.Location = New System.Drawing.Point(366, 115)
         Me.PictureBox10.Name = "PictureBox10"
         Me.PictureBox10.Size = New System.Drawing.Size(30, 30)
         Me.PictureBox10.TabIndex = 23
@@ -523,7 +494,6 @@ Partial Class Form1
         'Panel3
         '
         Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Panel3.Controls.Add(Me.PictureBox11)
         Me.Panel3.Controls.Add(Me.PictureBox12)
         Me.Panel3.Controls.Add(Me.PictureBox6)
         Me.Panel3.Controls.Add(Me.Label29)
@@ -546,21 +516,11 @@ Partial Class Form1
         Me.Panel3.TabIndex = 20
         Me.Panel3.Visible = False
         '
-        'PictureBox11
-        '
-        Me.PictureBox11.BackgroundImage = Global.SplitString.My.Resources.Resources.Circle___black_simple_fullpage_svg
-        Me.PictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox11.Location = New System.Drawing.Point(353, 113)
-        Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(30, 30)
-        Me.PictureBox11.TabIndex = 26
-        Me.PictureBox11.TabStop = False
-        '
         'PictureBox12
         '
         Me.PictureBox12.BackgroundImage = Global.SplitString.My.Resources.Resources.Circle___black_simple_fullpage1
         Me.PictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox12.Location = New System.Drawing.Point(312, 113)
+        Me.PictureBox12.Location = New System.Drawing.Point(366, 113)
         Me.PictureBox12.Name = "PictureBox12"
         Me.PictureBox12.Size = New System.Drawing.Size(30, 30)
         Me.PictureBox12.TabIndex = 25
@@ -780,8 +740,17 @@ Partial Class Form1
         '
         'Timer2
         '
-        Me.Timer2.Enabled = True
         Me.Timer2.Interval = 25000
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(10, 9)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 28
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.Visible = False
         '
         'Form1
         '
@@ -790,6 +759,7 @@ Partial Class Form1
         Me.BackgroundImage = Global.SplitString.My.Resources.Resources._30698321_10210687648896718_1015073562874085376_o1
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1049, 556)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label43)
         Me.Controls.Add(Me.PictureBox3)
@@ -809,17 +779,14 @@ Partial Class Form1
         Me.Text = "Form1"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
-        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -889,12 +856,10 @@ Partial Class Form1
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents Label43 As Label
     Friend WithEvents PictureBox7 As PictureBox
-    Friend WithEvents PictureBox8 As PictureBox
-    Friend WithEvents PictureBox9 As PictureBox
     Friend WithEvents PictureBox10 As PictureBox
-    Friend WithEvents PictureBox11 As PictureBox
     Friend WithEvents PictureBox12 As PictureBox
     Friend WithEvents Label45 As Label
     Friend WithEvents Label44 As Label
     Friend WithEvents Timer2 As Timer
+    Friend WithEvents Button1 As Button
 End Class

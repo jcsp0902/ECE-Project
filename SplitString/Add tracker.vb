@@ -5,29 +5,35 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If My.Settings.tracker = 0 Then
-            TextBox1.Text = My.Settings.tra1id
-            TextBox2.Text = My.Settings.tra1name
+            My.Settings.tra1id = TextBox1.Text
+            My.Settings.tra1name = TextBox2.Text
             My.Settings.tracker = 1
             My.Settings.Save()
             MsgBox("Tracker " + TextBox1.Text + " Successfully Added!")
             adminmode.Show()
+            adminmode.Timer2.Start()
+
             Me.Close()
 
         ElseIf My.Settings.tracker = 1 Then
-            TextBox1.Text = My.Settings.tra2id
-            TextBox2.Text = My.Settings.tra2name
+            My.Settings.tra2id = TextBox1.Text
+            My.Settings.tra2name = TextBox2.Text
             My.Settings.tracker = 2
             My.Settings.Save()
             MsgBox("Tracker " + TextBox1.Text + " Successfully Added!")
             adminmode.Show()
+
+            adminmode.Timer2.Start()
             Me.Close()
         ElseIf My.Settings.tracker = 2 Then
-            TextBox1.Text = My.Settings.tra3id
-            TextBox2.Text = My.Settings.tra3name
-            My.Settings.tracker = 2
+            My.Settings.tra3id = TextBox1.Text
+            My.Settings.tra3name = TextBox2.Text
+            My.Settings.tracker = 3
             My.Settings.Save()
             MsgBox("Tracker " + TextBox1.Text + " Successfully Added!")
             adminmode.Show()
+
+            adminmode.Timer2.Start()
             Me.Close()
         End If
     End Sub

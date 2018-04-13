@@ -65,6 +65,9 @@ Public Class Form1
             'MsgBox(ex.Message)
         End Try
 
+        If My.Settings.tra1e = True Then
+            PictureBox7.BackgroundImage = My.Resources.exclamation
+        End If
     End Sub
 
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
@@ -103,53 +106,60 @@ Public Class Form1
         'Dim s As String = "1234567890*0*29.58*"
         If Label9.Text = "222" Then
             PictureBox7.BackgroundImage = My.Resources.exclamation
+            My.Settings.tra1e = True
+            My.Settings.Save()
         ElseIf Label9.Text = "2" Then
             PictureBox7.BackgroundImage = My.Resources.exclamation
+            My.Settings.tra1e = True
+            My.Settings.Save()
         ElseIf Label9.Text = "22" Then
             PictureBox7.BackgroundImage = My.Resources.exclamation
+            My.Settings.tra1e = True
+            My.Settings.Save()
         Else
-            If time = 30 Then
-                Dim s As String = Label9.Text
-                ' Split string based on comma
 
-                If Not s.Contains("$") Then
-                    Dim words As String() = s.Split(New Char() {"*"c})
+            Dim s As String = Label9.Text
+            ' Split string based on comma
 
-                    ' Use For Each loop over words and display them
+            If Not s.Contains("G") Then
+                Dim words As String() = s.Split(New Char() {"*"c})
 
-                    Dim word As String
-                    For Each word In words
-                        If count = 0 Then
-                            Label1.Text = word
-                        ElseIf count = 1 Then
-                            Label2.Text = word
-                        ElseIf count = 2 Then
-                            Label3.Text = word
-                        ElseIf count = 3 Then
-                            Label44.Text = word
-                        ElseIf count = 4 Then
-                            Label45.Text = word
-                        ElseIf count = 5 Then
-                            Try
-                                If Not word = "" Then
+                ' Use For Each loop over words and display them
+
+                Dim word As String
+                For Each word In words
+                    If count = 0 Then
+                        Label1.Text = word
+                    ElseIf count = 1 Then
+                        Label2.Text = word
+                    ElseIf count = 2 Then
+                        Label3.Text = word
+                    ElseIf count = 3 Then
+                        Label44.Text = word
+                    ElseIf count = 4 Then
+                        Label45.Text = word
+                    ElseIf count = 5 Then
+                        Try
+                            If Not word = "" Then
+                                If time = My.Settings.delay Then
                                     Label4.Text = word
+                                    time = 0
+                                Else
+                                    time = time + 1
                                 End If
+                            End If
 
-                            Catch ex As Exception
+                        Catch ex As Exception
 
-                            End Try
-                        Else
-                            count = 0
-                        End If
-                        count = count + 1
-                    Next
-                    MsgBox("yow")
-                End If
-                time = 0
-            Else
-                time = time + 1
-                MsgBox(time)
+                        End Try
+                    Else
+                        count = 0
+                    End If
+                    count = count + 1
+                Next
             End If
+
+
 
         End If
 
@@ -186,6 +196,9 @@ Public Class Form1
         If Label2.Text >= 40 Then
             Label7.Text = "Normal"
             PictureBox4.BackgroundImage = My.Resources.green
+        ElseIf Label2.Text > 0 Then
+            Label7.Text = "Critical"
+            PictureBox4.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
         ElseIf Label2.Text > 0 Then
             Label7.Text = "Critical"
             PictureBox4.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
@@ -256,10 +269,6 @@ Public Class Form1
 
     End Sub
 
-    Private Sub PictureBox8_Click(sender As Object, e As EventArgs) Handles PictureBox8.Click
-        PictureBox7.BackgroundImage = My.Resources.Circle___black_simple_fullpage_svg
-        SerialPort1.Write(1)
-    End Sub
 
     Private Sub Label4_TextChanged(sender As Object, e As EventArgs) Handles Label4.TextChanged
         WebKitBrowser1.Navigate(Label4.Text)
@@ -267,5 +276,36 @@ Public Class Form1
 
     Private Sub Timer2_Tick(sender As Object, e As EventArgs) Handles Timer2.Tick
         Label4.Text = "http://maps.google.com/maps?q=14%C2%B0+50%27+20.40%22+N,+120%C2%B0+44%27+41.48%22+W"
+    End Sub
+
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
+        My.Settings.tracker = 0
+        My.Settings.Save()
+        Application.Restart()
+
+    End Sub
+
+    Private Sub WebKitBrowser1_Load(sender As Object, e As EventArgs) Handles WebKitBrowser1.Load
+
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+
+    End Sub
+
+    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
+
+    End Sub
+
+    Private Sub PictureBox8_Click(sender As Object, e As EventArgs)
+        MsgBox("Admin rights!")
+    End Sub
+
+    Private Sub PictureBox9_Click(sender As Object, e As EventArgs)
+        MsgBox("Admin rights!")
+    End Sub
+
+    Private Sub PictureBox11_Click(sender As Object, e As EventArgs)
+        MsgBox("Admin rights!")
     End Sub
 End Class

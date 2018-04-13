@@ -149,6 +149,54 @@ Namespace My
                 Me("tra3id") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("10")>  _
+        Public Property delay() As String
+            Get
+                Return CType(Me("delay"),String)
+            End Get
+            Set
+                Me("delay") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
+        Public Property tra1e() As Boolean
+            Get
+                Return CType(Me("tra1e"),Boolean)
+            End Get
+            Set
+                Me("tra1e") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
+        Public Property tra2e() As Boolean
+            Get
+                Return CType(Me("tra2e"),Boolean)
+            End Get
+            Set
+                Me("tra2e") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
+        Public Property tra3e() As Boolean
+            Get
+                Return CType(Me("tra3e"),Boolean)
+            End Get
+            Set
+                Me("tra3e") = value
+            End Set
+        End Property
     End Class
 End Namespace
 
