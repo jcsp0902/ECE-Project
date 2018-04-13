@@ -327,7 +327,8 @@ Public Class Form1
     End Sub
 
     Private Sub Panel6_Click(sender As Object, e As EventArgs) Handles Panel6.Click
-        Me.Close()
         Login.Show()
+        Me.Close()
+
     End Sub
 End Class
