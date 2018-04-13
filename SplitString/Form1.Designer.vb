@@ -88,6 +88,10 @@ Partial Class Form1
         Me.Label43 = New System.Windows.Forms.Label()
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label46 = New System.Windows.Forms.Label()
+        Me.Label47 = New System.Windows.Forms.Label()
+        Me.Label48 = New System.Windows.Forms.Label()
+        Me.Label49 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -314,7 +318,9 @@ Partial Class Form1
         'Panel2
         '
         Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel2.Controls.Add(Me.Label46)
         Me.Panel2.Controls.Add(Me.PictureBox10)
+        Me.Panel2.Controls.Add(Me.Label47)
         Me.Panel2.Controls.Add(Me.PictureBox5)
         Me.Panel2.Controls.Add(Me.Label5)
         Me.Panel2.Controls.Add(Me.Label6)
@@ -373,6 +379,7 @@ Partial Class Form1
         Me.Label6.Size = New System.Drawing.Size(39, 13)
         Me.Label6.TabIndex = 10
         Me.Label6.Text = "Label6"
+        Me.Label6.Visible = False
         '
         'Label8
         '
@@ -456,13 +463,14 @@ Partial Class Form1
         'Label25
         '
         Me.Label25.AutoSize = True
-        Me.Label25.Location = New System.Drawing.Point(172, 100)
+        Me.Label25.Location = New System.Drawing.Point(172, 128)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(938, 13)
         Me.Label25.TabIndex = 3
         Me.Label25.Text = "https://www.google.com/maps/place/Casa+Buena+De+Pulilan/@14.9166845,120.8695348,1" &
     "7z/data=!4m5!3m4!1s0x339654e1c3f12db1:0x2c3faea840348969!8m2!3d14.916646!4d120.8" &
     "688918"
+        Me.Label25.Visible = False
         '
         'Label26
         '
@@ -494,7 +502,9 @@ Partial Class Form1
         'Panel3
         '
         Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel3.Controls.Add(Me.Label48)
         Me.Panel3.Controls.Add(Me.PictureBox12)
+        Me.Panel3.Controls.Add(Me.Label49)
         Me.Panel3.Controls.Add(Me.PictureBox6)
         Me.Panel3.Controls.Add(Me.Label29)
         Me.Panel3.Controls.Add(Me.Label30)
@@ -553,6 +563,7 @@ Partial Class Form1
         Me.Label30.Size = New System.Drawing.Size(45, 13)
         Me.Label30.TabIndex = 10
         Me.Label30.Text = "Label30"
+        Me.Label30.Visible = False
         '
         'Label31
         '
@@ -636,13 +647,14 @@ Partial Class Form1
         'Label39
         '
         Me.Label39.AutoSize = True
-        Me.Label39.Location = New System.Drawing.Point(172, 100)
+        Me.Label39.Location = New System.Drawing.Point(166, 128)
         Me.Label39.Name = "Label39"
         Me.Label39.Size = New System.Drawing.Size(938, 13)
         Me.Label39.TabIndex = 3
         Me.Label39.Text = "https://www.google.com/maps/place/Eugene+Garden+Resort/@14.9076026,120.8680435,17" &
     "z/data=!4m5!3m4!1s0x339654e89507cc89:0x99ec527f6ee58d94!8m2!3d14.9060653!4d120.8" &
     "68694"
+        Me.Label39.Visible = False
         '
         'Label40
         '
@@ -751,6 +763,42 @@ Partial Class Form1
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
         Me.Button1.Visible = False
+        '
+        'Label46
+        '
+        Me.Label46.AutoSize = True
+        Me.Label46.Location = New System.Drawing.Point(293, 102)
+        Me.Label46.Name = "Label46"
+        Me.Label46.Size = New System.Drawing.Size(13, 13)
+        Me.Label46.TabIndex = 26
+        Me.Label46.Text = "0"
+        '
+        'Label47
+        '
+        Me.Label47.AutoSize = True
+        Me.Label47.Location = New System.Drawing.Point(172, 102)
+        Me.Label47.Name = "Label47"
+        Me.Label47.Size = New System.Drawing.Size(13, 13)
+        Me.Label47.TabIndex = 25
+        Me.Label47.Text = "0"
+        '
+        'Label48
+        '
+        Me.Label48.AutoSize = True
+        Me.Label48.Location = New System.Drawing.Point(293, 99)
+        Me.Label48.Name = "Label48"
+        Me.Label48.Size = New System.Drawing.Size(13, 13)
+        Me.Label48.TabIndex = 28
+        Me.Label48.Text = "0"
+        '
+        'Label49
+        '
+        Me.Label49.AutoSize = True
+        Me.Label49.Location = New System.Drawing.Point(172, 99)
+        Me.Label49.Name = "Label49"
+        Me.Label49.Size = New System.Drawing.Size(13, 13)
+        Me.Label49.TabIndex = 27
+        Me.Label49.Text = "0"
         '
         'Form1
         '
@@ -862,4 +910,8 @@ Partial Class Form1
     Friend WithEvents Label44 As Label
     Friend WithEvents Timer2 As Timer
     Friend WithEvents Button1 As Button
+    Friend WithEvents Label46 As Label
+    Friend WithEvents Label47 As Label
+    Friend WithEvents Label48 As Label
+    Friend WithEvents Label49 As Label
 End Class
