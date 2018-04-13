@@ -18,7 +18,12 @@ Public Class Form1
         Label40.Text = My.Settings.tra3id
         Label29.Text = My.Settings.tra3name
 
+        If My.Settings.tra1e = True Then
+            PictureBox9.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
+        ElseIf My.Settings.tra1e = False Then
+            PictureBox9.BackgroundImage = My.Resources.orange
 
+        End If
 
 
 
@@ -307,5 +312,18 @@ Public Class Form1
 
     Private Sub PictureBox11_Click(sender As Object, e As EventArgs)
         MsgBox("Admin rights!")
+    End Sub
+
+    Private Sub PictureBox8_Click_1(sender As Object, e As EventArgs) Handles PictureBox8.Click
+        My.Settings.tracker = 0
+        My.Settings.Save()
+        Application.Restart()
+
+    End Sub
+
+    Private Sub Panel6_Paint(sender As Object, e As PaintEventArgs) Handles Panel6.Paint
+        Me.Close()
+        Login.Show()
+
     End Sub
 End Class

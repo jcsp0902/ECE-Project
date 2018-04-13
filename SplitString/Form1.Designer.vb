@@ -46,7 +46,9 @@ Partial Class Form1
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Label46 = New System.Windows.Forms.Label()
         Me.PictureBox10 = New System.Windows.Forms.PictureBox()
+        Me.Label47 = New System.Windows.Forms.Label()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
@@ -63,7 +65,9 @@ Partial Class Form1
         Me.Label27 = New System.Windows.Forms.Label()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Label48 = New System.Windows.Forms.Label()
         Me.PictureBox12 = New System.Windows.Forms.PictureBox()
+        Me.Label49 = New System.Windows.Forms.Label()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.Label29 = New System.Windows.Forms.Label()
         Me.Label30 = New System.Windows.Forms.Label()
@@ -88,10 +92,11 @@ Partial Class Form1
         Me.Label43 = New System.Windows.Forms.Label()
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Label46 = New System.Windows.Forms.Label()
-        Me.Label47 = New System.Windows.Forms.Label()
-        Me.Label48 = New System.Windows.Forms.Label()
-        Me.Label49 = New System.Windows.Forms.Label()
+        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox13 = New System.Windows.Forms.PictureBox()
+        Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -104,6 +109,10 @@ Partial Class Form1
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -176,6 +185,7 @@ Partial Class Form1
         'Panel1
         '
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel1.Controls.Add(Me.PictureBox9)
         Me.Panel1.Controls.Add(Me.Label45)
         Me.Panel1.Controls.Add(Me.Label44)
         Me.Panel1.Controls.Add(Me.PictureBox7)
@@ -220,7 +230,7 @@ Partial Class Form1
         '
         Me.PictureBox7.BackgroundImage = Global.SplitString.My.Resources.Resources.Circle___black_simple_fullpage_svg
         Me.PictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox7.Location = New System.Drawing.Point(366, 116)
+        Me.PictureBox7.Location = New System.Drawing.Point(330, 115)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(30, 30)
         Me.PictureBox7.TabIndex = 21
@@ -318,6 +328,7 @@ Partial Class Form1
         'Panel2
         '
         Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel2.Controls.Add(Me.PictureBox11)
         Me.Panel2.Controls.Add(Me.Label46)
         Me.Panel2.Controls.Add(Me.PictureBox10)
         Me.Panel2.Controls.Add(Me.Label47)
@@ -342,15 +353,33 @@ Partial Class Form1
         Me.Panel2.TabIndex = 19
         Me.Panel2.Visible = False
         '
+        'Label46
+        '
+        Me.Label46.AutoSize = True
+        Me.Label46.Location = New System.Drawing.Point(293, 102)
+        Me.Label46.Name = "Label46"
+        Me.Label46.Size = New System.Drawing.Size(13, 13)
+        Me.Label46.TabIndex = 26
+        Me.Label46.Text = "0"
+        '
         'PictureBox10
         '
         Me.PictureBox10.BackgroundImage = Global.SplitString.My.Resources.Resources.Circle___black_simple_fullpage1
         Me.PictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox10.Location = New System.Drawing.Point(366, 115)
+        Me.PictureBox10.Location = New System.Drawing.Point(330, 111)
         Me.PictureBox10.Name = "PictureBox10"
         Me.PictureBox10.Size = New System.Drawing.Size(30, 30)
         Me.PictureBox10.TabIndex = 23
         Me.PictureBox10.TabStop = False
+        '
+        'Label47
+        '
+        Me.Label47.AutoSize = True
+        Me.Label47.Location = New System.Drawing.Point(172, 102)
+        Me.Label47.Name = "Label47"
+        Me.Label47.Size = New System.Drawing.Size(13, 13)
+        Me.Label47.TabIndex = 25
+        Me.Label47.Text = "0"
         '
         'PictureBox5
         '
@@ -502,6 +531,7 @@ Partial Class Form1
         'Panel3
         '
         Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel3.Controls.Add(Me.PictureBox13)
         Me.Panel3.Controls.Add(Me.Label48)
         Me.Panel3.Controls.Add(Me.PictureBox12)
         Me.Panel3.Controls.Add(Me.Label49)
@@ -526,15 +556,33 @@ Partial Class Form1
         Me.Panel3.TabIndex = 20
         Me.Panel3.Visible = False
         '
+        'Label48
+        '
+        Me.Label48.AutoSize = True
+        Me.Label48.Location = New System.Drawing.Point(293, 99)
+        Me.Label48.Name = "Label48"
+        Me.Label48.Size = New System.Drawing.Size(13, 13)
+        Me.Label48.TabIndex = 28
+        Me.Label48.Text = "0"
+        '
         'PictureBox12
         '
         Me.PictureBox12.BackgroundImage = Global.SplitString.My.Resources.Resources.Circle___black_simple_fullpage1
         Me.PictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox12.Location = New System.Drawing.Point(366, 113)
+        Me.PictureBox12.Location = New System.Drawing.Point(330, 116)
         Me.PictureBox12.Name = "PictureBox12"
         Me.PictureBox12.Size = New System.Drawing.Size(30, 30)
         Me.PictureBox12.TabIndex = 25
         Me.PictureBox12.TabStop = False
+        '
+        'Label49
+        '
+        Me.Label49.AutoSize = True
+        Me.Label49.Location = New System.Drawing.Point(172, 99)
+        Me.Label49.Name = "Label49"
+        Me.Label49.Size = New System.Drawing.Size(13, 13)
+        Me.Label49.TabIndex = 27
+        Me.Label49.Text = "0"
         '
         'PictureBox6
         '
@@ -764,41 +812,54 @@ Partial Class Form1
         Me.Button1.UseVisualStyleBackColor = True
         Me.Button1.Visible = False
         '
-        'Label46
+        'PictureBox8
         '
-        Me.Label46.AutoSize = True
-        Me.Label46.Location = New System.Drawing.Point(293, 102)
-        Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(13, 13)
-        Me.Label46.TabIndex = 26
-        Me.Label46.Text = "0"
+        Me.PictureBox8.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox8.Location = New System.Drawing.Point(405, 9)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(46, 30)
+        Me.PictureBox8.TabIndex = 29
+        Me.PictureBox8.TabStop = False
         '
-        'Label47
+        'PictureBox9
         '
-        Me.Label47.AutoSize = True
-        Me.Label47.Location = New System.Drawing.Point(172, 102)
-        Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(13, 13)
-        Me.Label47.TabIndex = 25
-        Me.Label47.Text = "0"
+        Me.PictureBox9.BackgroundImage = Global.SplitString.My.Resources.Resources.Circle___black_simple_fullpage_svg
+        Me.PictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox9.Location = New System.Drawing.Point(366, 115)
+        Me.PictureBox9.Name = "PictureBox9"
+        Me.PictureBox9.Size = New System.Drawing.Size(30, 30)
+        Me.PictureBox9.TabIndex = 25
+        Me.PictureBox9.TabStop = False
         '
-        'Label48
+        'PictureBox11
         '
-        Me.Label48.AutoSize = True
-        Me.Label48.Location = New System.Drawing.Point(293, 99)
-        Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(13, 13)
-        Me.Label48.TabIndex = 28
-        Me.Label48.Text = "0"
+        Me.PictureBox11.BackgroundImage = Global.SplitString.My.Resources.Resources.Circle___black_simple_fullpage_svg
+        Me.PictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox11.Location = New System.Drawing.Point(366, 111)
+        Me.PictureBox11.Name = "PictureBox11"
+        Me.PictureBox11.Size = New System.Drawing.Size(30, 30)
+        Me.PictureBox11.TabIndex = 26
+        Me.PictureBox11.TabStop = False
         '
-        'Label49
+        'PictureBox13
         '
-        Me.Label49.AutoSize = True
-        Me.Label49.Location = New System.Drawing.Point(172, 99)
-        Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(13, 13)
-        Me.Label49.TabIndex = 27
-        Me.Label49.Text = "0"
+        Me.PictureBox13.BackgroundImage = Global.SplitString.My.Resources.Resources.Circle___black_simple_fullpage_svg
+        Me.PictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox13.Location = New System.Drawing.Point(366, 116)
+        Me.PictureBox13.Name = "PictureBox13"
+        Me.PictureBox13.Size = New System.Drawing.Size(30, 30)
+        Me.PictureBox13.TabIndex = 27
+        Me.PictureBox13.TabStop = False
+        '
+        'Panel6
+        '
+        Me.Panel6.BackColor = System.Drawing.Color.Transparent
+        Me.Panel6.BackgroundImage = Global.SplitString.My.Resources.Resources._30697733_10210687648816716_1403425674009509888_o__1____Copy
+        Me.Panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Panel6.Location = New System.Drawing.Point(916, 499)
+        Me.Panel6.Name = "Panel6"
+        Me.Panel6.Size = New System.Drawing.Size(133, 57)
+        Me.Panel6.TabIndex = 54
         '
         'Form1
         '
@@ -807,6 +868,8 @@ Partial Class Form1
         Me.BackgroundImage = Global.SplitString.My.Resources.Resources._30698321_10210687648896718_1015073562874085376_o1
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1049, 556)
+        Me.Controls.Add(Me.Panel6)
+        Me.Controls.Add(Me.PictureBox8)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label43)
@@ -840,6 +903,10 @@ Partial Class Form1
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -914,4 +981,9 @@ Partial Class Form1
     Friend WithEvents Label47 As Label
     Friend WithEvents Label48 As Label
     Friend WithEvents Label49 As Label
+    Friend WithEvents PictureBox8 As PictureBox
+    Friend WithEvents PictureBox9 As PictureBox
+    Friend WithEvents PictureBox11 As PictureBox
+    Friend WithEvents PictureBox13 As PictureBox
+    Friend WithEvents Panel6 As Panel
 End Class
