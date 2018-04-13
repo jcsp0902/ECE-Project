@@ -322,8 +322,12 @@ Public Class Form1
     End Sub
 
     Private Sub Panel6_Paint(sender As Object, e As PaintEventArgs) Handles Panel6.Paint
+
+
+    End Sub
+
+    Private Sub Panel6_Click(sender As Object, e As EventArgs) Handles Panel6.Click
         Me.Close()
         Login.Show()
-
     End Sub
 End Class
