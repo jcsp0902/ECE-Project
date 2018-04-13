@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="comport" Type="System.String" Scope="User">
+      <Value Profile="(Default)">COM3</Value>
+    </Setting>
+    <Setting Name="tracker" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="tra1name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Jose Carlo San Pedro</Value>
+    </Setting>
+    <Setting Name="tra1id" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1234567890</Value>
+    </Setting>
+    <Setting Name="tra2name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Chelzea Louise Salvador</Value>
+    </Setting>
+    <Setting Name="tra2id" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0987654321</Value>
+    </Setting>
+    <Setting Name="tra3name" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="tra3id" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
