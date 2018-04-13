@@ -305,4 +305,9 @@ Public Class adminmode
             PictureBox13.BackgroundImage = My.Resources.black
         End If
     End Sub
+
+    Private Sub PictureBox7_Click(sender As Object, e As EventArgs) Handles PictureBox7.Click
+        PictureBox7.BackgroundImage = My.Resources.Circle___black_simple_fullpage1
+        PictureBox8.BackgroundImage = My.Resources.orange
+    End Sub
 End Class

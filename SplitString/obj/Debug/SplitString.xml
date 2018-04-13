@@ -32,6 +32,11 @@ SplitString
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:SplitString.My.Resources.Resources._30441541_10210671782980080_7206142304422199296_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:SplitString.My.Resources.Resources._30697733_10210687648816716_1403425674009509888_o___Copy">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -123,6 +128,11 @@ SplitString
 </summary>
 </member>
 <member name="P:SplitString.My.Resources.Resources.Ski_trail_rating_symbol_red_circle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SplitString.My.Resources.Resources.splashscreen">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
