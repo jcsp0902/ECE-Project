@@ -44,7 +44,7 @@ Public Class Form1
         Try
             SerialPort1.Close()
             SerialPort1.PortName = My.Settings.comport
-            SerialPort1.BaudRate = 9600
+            SerialPort1.BaudRate = 115200
             SerialPort1.DataBits = 8
             SerialPort1.Parity = Parity.None
             SerialPort1.StopBits = StopBits.One
