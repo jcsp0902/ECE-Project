@@ -63,7 +63,7 @@ Public Class adminmode
                 Label9.Text = RichTextBox1.Text
             End If
         Catch ex As Exception
-            'MsgBox(ex.Message)
+            MsgBox(ex.Message)
         End Try
 
         If My.Settings.tra1e = True Then
