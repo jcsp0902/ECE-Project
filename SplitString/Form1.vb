@@ -146,12 +146,9 @@ Public Class Form1
                     ElseIf count = 1 Then
                         'Label2.Text = word
                     ElseIf count = 2 Then
-                        Try
-                            Label3.Text = word
 
-                        Catch ex As Exception
+                        Label2.Text = word
 
-                        End Try
                     ElseIf count = 3 Then
                         Try
 

@@ -226,14 +226,10 @@ Public Class adminmode
                     If count = 0 Then
                         ' Label1.Text = word
                     ElseIf count = 1 Then
-                        'Label2.Text = word
+                        ' Label2.Text = word
                     ElseIf count = 2 Then
-                        Try
-                            Label3.Text = word
+                        Label2.Text = word
 
-                        Catch ex As Exception
-
-                        End Try
                     ElseIf count = 3 Then
                         Try
                             Label44.Text = word
