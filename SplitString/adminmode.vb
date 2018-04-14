@@ -250,13 +250,10 @@ Public Class adminmode
                     ElseIf count = 5 Then
                         Try
                             If Not word = "" Then
-                                If time = My.Settings.delay Then
-                                    MsgBox("yow")
+
+                                MsgBox("yow")
                                     Label4.Text = word
-                                    time = 0
-                                Else
-                                    time = time + 1
-                                End If
+
                             End If
 
                         Catch ex As Exception
