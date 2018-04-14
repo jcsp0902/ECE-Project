@@ -6,6 +6,9 @@ Public Class Form1
     Dim receivedData As String = ""
     Dim count As Integer
     Dim time As Integer
+
+    Dim P As Double
+    Dim Q As Double
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         WebKitBrowser1.Navigate("http://maps.google.com/maps?q=14%C2%B0+50%27+20.40%22+N,+120%C2%B0+44%27+41.48%22+E")
         Label1.Text = My.Settings.tra1id
@@ -220,25 +223,27 @@ Public Class Form1
     End Sub
 
     Private Sub Label2_TextChanged(sender As Object, e As EventArgs) Handles Label2.TextChanged
-        If Label2.Text > 100 And Label3.Text > 37.5 Then
+        P = Double.TryParse(Label3.Text, P)
+        Q = Double.TryParse(Label2.Text, Q)
+        If Q > 100 And P > 37.5 Then
             Label7.Text = "Critical"
             PictureBox4.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
-        ElseIf Label2.Text < 40 And Label3.Text < 33.2 Then
+        ElseIf Q < 40 And P < 33.2 Then
             Label7.Text = "Critical"
             PictureBox4.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
-        ElseIf Label3.Text > 37.5 Then
+        ElseIf P > 37.5 Then
             Label7.Text = "Unstable"
             PictureBox4.BackgroundImage = My.Resources.yellow
-        ElseIf Label3.Text < 33.2 Then
+        ElseIf P < 33.2 Then
             Label7.Text = "Unstable"
             PictureBox4.BackgroundImage = My.Resources.yellow
-        ElseIf Label2.Text > 100 Then
+        ElseIf Q > 100 Then
             Label7.Text = "Unstable"
             PictureBox4.BackgroundImage = My.Resources.yellow
-        ElseIf Label2.Text < 40 Then
+        ElseIf Q < 40 Then
             Label7.Text = "Unstable"
             PictureBox4.BackgroundImage = My.Resources.yellow
-        ElseIf Label2.Text = 0 Then
+        ElseIf Q = 0 Then
             Label7.Text = "Dead"
             PictureBox4.BackgroundImage = My.Resources.black
         Else
