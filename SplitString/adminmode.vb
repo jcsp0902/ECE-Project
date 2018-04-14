@@ -271,7 +271,7 @@ Public Class adminmode
     End Sub
 
     Private Sub Label4_TextChanged(sender As Object, e As EventArgs) Handles Label4.TextChanged
-        MsgBox("yow")
+
         WebKitBrowser1.Navigate(Label4.Text)
     End Sub
 
