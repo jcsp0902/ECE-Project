@@ -241,11 +241,11 @@ Public Class adminmode
                     ElseIf count = 1 Then
                         Label2.Text = word
                     ElseIf count = 2 Then
-                        Label8.Text = word
+                        Label3.Text = word
                     ElseIf count = 3 Then
-                        Label46.Text = word
+                        Label44.Text = word
                     ElseIf count = 4 Then
-                        Label47.Text = word
+                        Label45.Text = word
 
                     ElseIf count = 5 Then
                         Try
@@ -288,25 +288,25 @@ Public Class adminmode
 
         If Q = 0 Then
             Label7.Text = "Dead"
-            PictureBox10.BackgroundImage = My.Resources.black
+            PictureBox5.BackgroundImage = My.Resources.black
 
 
 
         ElseIf Q < 40 And P < 33.2 Then
             Label7.Text = "Critical"
-            PictureBox10.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
+            PictureBox5.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
         ElseIf P > 37.5 Or P < 33.2 Then
             Label7.Text = "Unstable"
-            PictureBox10.BackgroundImage = My.Resources.yellow
+            PictureBox5.BackgroundImage = My.Resources.yellow
         ElseIf Q > 100 Or Q < 40 Then
             Label7.Text = "Unstable"
-            PictureBox10.BackgroundImage = My.Resources.yellow
+            PictureBox5.BackgroundImage = My.Resources.yellow
         ElseIf Q > 100 And P > 37.5 Then
             Label7.Text = "Critical"
-            PictureBox10.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
+            PictureBox5.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
         Else
             Label7.Text = "Normal"
-            PictureBox10.BackgroundImage = My.Resources.green
+            PictureBox5.BackgroundImage = My.Resources.green
         End If
     End Sub
 
