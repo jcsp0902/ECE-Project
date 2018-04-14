@@ -11,7 +11,7 @@ Public Class adminmode
     Dim P As Double
     Dim Q As Double
     Private Sub adminmode_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        'WebKitBrowser1.Navigate("http://maps.google.com/maps?q=14%C2%B0+50%27+20.40%22+N,+120%C2%B0+44%27+41.48%22+E")
+        WebKitBrowser1.Navigate("http://maps.google.com/maps?q=14%C2%B0+50%27+20.40%22+N,+120%C2%B0+44%27+41.48%22+E")
         Label1.Text = My.Settings.tra1id
         Label17.Text = My.Settings.tra1name
 
@@ -280,7 +280,9 @@ Public Class adminmode
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+
         fullmap.Label1.Text = Label4.Text
+        fullmap.Show()
     End Sub
 
     Private Sub Label2_TextChanged(sender As Object, e As EventArgs) Handles Label2.TextChanged
