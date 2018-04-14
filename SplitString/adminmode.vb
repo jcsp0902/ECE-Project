@@ -251,6 +251,7 @@ Public Class adminmode
                         Try
                             If Not word = "" Then
                                 If time = 10 Then
+                                    MsgBox("yow")
                                     Label4.Text = word
                                     time = 0
                                 Else
