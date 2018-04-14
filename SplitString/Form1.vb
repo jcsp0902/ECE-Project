@@ -144,10 +144,10 @@ Public Class Form1
                     If count = 0 Then
                         'Label1.Text = word
                     ElseIf count = 1 Then
-                        'Label2.Text = word
+                        Label2.Text = word
                     ElseIf count = 2 Then
 
-                        Label2.Text = word
+                        Label3.Text = word
 
                     ElseIf count = 3 Then
                         Try
