@@ -204,24 +204,24 @@ Public Class adminmode
         count = 0
         'Dim s As String = "1234567890*0*29.58*"
         If Label9.Text = "222" Then
-            PictureBox7.BackgroundImage = My.Resources.exclamation
+            PictureBox10.BackgroundImage = My.Resources.exclamation
             My.Settings.tra1e = True
             My.Settings.Save()
 
         ElseIf Label9.Text = "2" Then
-            PictureBox7.BackgroundImage = My.Resources.exclamation
+            PictureBox10.BackgroundImage = My.Resources.exclamation
             My.Settings.tra1e = True
             My.Settings.Save()
         ElseIf Label9.Text = "22" Then
-            PictureBox7.BackgroundImage = My.Resources.exclamation
+            PictureBox10.BackgroundImage = My.Resources.exclamation
             My.Settings.tra1e = True
             My.Settings.Save()
         ElseIf Label9.Text = "2222" Then
-            PictureBox7.BackgroundImage = My.Resources.exclamation
+            PictureBox10.BackgroundImage = My.Resources.exclamation
             My.Settings.tra1e = True
             My.Settings.Save()
         ElseIf Label9.Text = "22222" Then
-            PictureBox7.BackgroundImage = My.Resources.exclamation
+            PictureBox10.BackgroundImage = My.Resources.exclamation
             My.Settings.tra1e = True
             My.Settings.Save()
         Else
@@ -347,6 +347,10 @@ Public Class adminmode
         PictureBox8.BackgroundImage = My.Resources.orange
         My.Settings.tra1e = False
         My.Settings.Save()
+
+    End Sub
+
+    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
 
     End Sub
 End Class
