@@ -7,6 +7,9 @@ Public Class adminmode
     Dim receivedData As String = ""
     Dim count As Integer
     Dim time As Integer
+
+    Dim P As Double
+    Dim Q As Double
     Private Sub adminmode_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'WebKitBrowser1.Navigate("http://maps.google.com/maps?q=14%C2%B0+50%27+20.40%22+N,+120%C2%B0+44%27+41.48%22+E")
         Label1.Text = My.Settings.tra1id
@@ -156,6 +159,16 @@ Public Class adminmode
             Panel4.Show()
 
         End If
+        SerialPort1.Close()
+        SerialPort1.PortName = My.Settings.comport
+        SerialPort1.BaudRate = 115200
+        SerialPort1.DataBits = 8
+        SerialPort1.Parity = Parity.None
+        SerialPort1.StopBits = StopBits.One
+        SerialPort1.Handshake = Handshake.None
+        SerialPort1.Encoding = System.Text.Encoding.Default 'very important!
+        SerialPort1.ReadTimeout = 10000
+        SerialPort1.Open()
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -226,15 +239,13 @@ Public Class adminmode
                     If count = 0 Then
                         ' Label1.Text = word
                     ElseIf count = 1 Then
-                        ' Label2.Text = word
-                    ElseIf count = 2 Then
-
-
-                    ElseIf count = 3 Then
-                        Label44.Text = word
                         Label2.Text = word
+                    ElseIf count = 2 Then
+                        Label8.Text = word
+                    ElseIf count = 3 Then
+                        Label46.Text = word
                     ElseIf count = 4 Then
-                        Label45.Text = word
+                        Label47.Text = word
 
                     ElseIf count = 5 Then
                         Try
@@ -272,18 +283,30 @@ Public Class adminmode
     End Sub
 
     Private Sub Label2_TextChanged(sender As Object, e As EventArgs) Handles Label2.TextChanged
-        If Label2.Text >= 40 Then
-            Label7.Text = "Normal"
-            PictureBox5.BackgroundImage = My.Resources.green
-        ElseIf Label2.Text > 0 Then
-            Label7.Text = "Critical"
-            PictureBox5.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
-        ElseIf Label2.Text > 0 Then
-            Label7.Text = "Critical"
-            PictureBox5.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
-        ElseIf Label2.Text = 0 Then
+        Double.TryParse(Label3.Text, P)
+        Double.TryParse(Label2.Text, Q)
+
+        If Q = 0 Then
             Label7.Text = "Dead"
-            PictureBox5.BackgroundImage = My.Resources.black
+            PictureBox4.BackgroundImage = My.Resources.black
+
+
+
+        ElseIf Q < 40 And P < 33.2 Then
+            Label7.Text = "Critical"
+            PictureBox4.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
+        ElseIf P > 37.5 Or P < 33.2 Then
+            Label7.Text = "Unstable"
+            PictureBox4.BackgroundImage = My.Resources.yellow
+        ElseIf Q > 100 Or Q < 40 Then
+            Label7.Text = "Unstable"
+            PictureBox4.BackgroundImage = My.Resources.yellow
+        ElseIf Q > 100 And P > 37.5 Then
+            Label7.Text = "Critical"
+            PictureBox4.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
+        Else
+            Label7.Text = "Normal"
+            PictureBox4.BackgroundImage = My.Resources.green
         End If
     End Sub
 
