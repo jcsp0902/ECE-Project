@@ -100,6 +100,8 @@ Public Class adminmode
     End Sub
 
     Private Sub Panel6_Click(sender As Object, e As EventArgs) Handles Panel6.Click
+        SerialPort1.Close()
+
         Login.Show()
 
         Me.Close()
@@ -108,7 +110,7 @@ Public Class adminmode
 
     Private Sub PictureBox8_Click(sender As Object, e As EventArgs) Handles PictureBox8.Click
         SerialPort1.Write(1)
-        PictureBox1.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
+        PictureBox8.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
     End Sub
 
     Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
@@ -201,6 +203,14 @@ Public Class adminmode
             PictureBox7.BackgroundImage = My.Resources.exclamation
             My.Settings.tra1e = True
             My.Settings.Save()
+        ElseIf Label9.Text = "2222" Then
+            PictureBox7.BackgroundImage = My.Resources.exclamation
+            My.Settings.tra1e = True
+            My.Settings.Save()
+        ElseIf Label9.Text = "22222" Then
+            PictureBox7.BackgroundImage = My.Resources.exclamation
+            My.Settings.tra1e = True
+            My.Settings.Save()
         Else
 
             Dim s As String = Label9.Text
@@ -214,15 +224,30 @@ Public Class adminmode
                 Dim word As String
                 For Each word In words
                     If count = 0 Then
-                        Label1.Text = word
+                        ' Label1.Text = word
                     ElseIf count = 1 Then
-                        Label2.Text = word
+                        'Label2.Text = word
                     ElseIf count = 2 Then
-                        Label3.Text = word
+                        Try
+                            Label3.Text = word
+
+                        Catch ex As Exception
+
+                        End Try
                     ElseIf count = 3 Then
-                        Label44.Text = word
+                        Try
+                            Label44.Text = word
+
+                        Catch ex As Exception
+
+                        End Try
                     ElseIf count = 4 Then
-                        Label45.Text = word
+                        Try
+                            Label45.Text = word
+
+                        Catch ex As Exception
+
+                        End Try
                     ElseIf count = 5 Then
                         Try
                             If Not word = "" Then

@@ -31,4 +31,9 @@
     Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
 
     End Sub
+
+    Private Sub Login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        SerialPort1.Close()
+
+    End Sub
 End Class

@@ -67,7 +67,7 @@ Public Class Form1
                 Label9.Text = RichTextBox1.Text
             End If
         Catch ex As Exception
-            'MsgBox(ex.Message)
+            MsgBox(ex.Message)
         End Try
 
         If My.Settings.tra1e = True Then
@@ -121,6 +121,14 @@ Public Class Form1
             PictureBox7.BackgroundImage = My.Resources.exclamation
             My.Settings.tra1e = True
             My.Settings.Save()
+        ElseIf Label9.Text = "2222" Then
+            PictureBox7.BackgroundImage = My.Resources.exclamation
+            My.Settings.tra1e = True
+            My.Settings.Save()
+        ElseIf Label9.Text = "22222" Then
+            PictureBox7.BackgroundImage = My.Resources.exclamation
+            My.Settings.tra1e = True
+            My.Settings.Save()
         Else
 
             Dim s As String = Label9.Text
@@ -134,15 +142,32 @@ Public Class Form1
                 Dim word As String
                 For Each word In words
                     If count = 0 Then
-                        Label1.Text = word
+                        'Label1.Text = word
                     ElseIf count = 1 Then
-                        Label2.Text = word
+                        'Label2.Text = word
                     ElseIf count = 2 Then
-                        Label3.Text = word
+                        Try
+                            Label3.Text = word
+
+                        Catch ex As Exception
+
+                        End Try
                     ElseIf count = 3 Then
-                        Label44.Text = word
+                        Try
+
+                            Label44.Text = word
+
+                        Catch ex As Exception
+
+                        End Try
                     ElseIf count = 4 Then
-                        Label45.Text = word
+                        Try
+
+                            Label45.Text = word
+
+                        Catch ex As Exception
+
+                        End Try
                     ElseIf count = 5 Then
                         Try
                             If Not word = "" Then
@@ -227,7 +252,7 @@ Public Class Form1
     End Sub
 
     Private Sub Label42_TextChanged(sender As Object, e As EventArgs) Handles Label42.TextChanged
-        If Label42.Text >= 40 Then
+        If Label42.Text >= 40 = Label3.Text = 33.3 Then
 
             Label33.Text = "Normal"
             PictureBox6.BackgroundImage = My.Resources.green
@@ -328,6 +353,8 @@ Public Class Form1
 
     Private Sub Panel6_Click(sender As Object, e As EventArgs) Handles Panel6.Click
         Login.Show()
+        SerialPort1.Close()
+
         Me.Close()
 
     End Sub
