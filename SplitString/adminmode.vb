@@ -288,25 +288,25 @@ Public Class adminmode
 
         If Q = 0 Then
             Label7.Text = "Dead"
-            PictureBox4.BackgroundImage = My.Resources.black
+            PictureBox10.BackgroundImage = My.Resources.black
 
 
 
         ElseIf Q < 40 And P < 33.2 Then
             Label7.Text = "Critical"
-            PictureBox4.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
+            PictureBox10.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
         ElseIf P > 37.5 Or P < 33.2 Then
             Label7.Text = "Unstable"
-            PictureBox4.BackgroundImage = My.Resources.yellow
+            PictureBox10.BackgroundImage = My.Resources.yellow
         ElseIf Q > 100 Or Q < 40 Then
             Label7.Text = "Unstable"
-            PictureBox4.BackgroundImage = My.Resources.yellow
+            PictureBox10.BackgroundImage = My.Resources.yellow
         ElseIf Q > 100 And P > 37.5 Then
             Label7.Text = "Critical"
-            PictureBox4.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
+            PictureBox10.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
         Else
             Label7.Text = "Normal"
-            PictureBox4.BackgroundImage = My.Resources.green
+            PictureBox10.BackgroundImage = My.Resources.green
         End If
     End Sub
 
