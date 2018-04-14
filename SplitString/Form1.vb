@@ -238,7 +238,7 @@ Public Class Form1
         ElseIf Q > 100 Or Q < 40 Then
             Label7.Text = "Unstable"
             PictureBox4.BackgroundImage = My.Resources.yellow
-        ElseIf Q = 0 Then
+        ElseIf Q < 1 Then
             Label7.Text = "Dead"
             PictureBox4.BackgroundImage = My.Resources.black
         Else
