@@ -223,8 +223,8 @@ Public Class Form1
     End Sub
 
     Private Sub Label2_TextChanged(sender As Object, e As EventArgs) Handles Label2.TextChanged
-        P = Double.TryParse(Label3.Text, P)
-        Q = Double.TryParse(Label2.Text, Q)
+        Double.TryParse(Label3.Text, P)
+        Double.TryParse(Label2.Text, Q)
         MsgBox(P)
         If Q > 100 And P > 37.5 Then
             Label7.Text = "Critical"
