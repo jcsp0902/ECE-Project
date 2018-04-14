@@ -226,22 +226,16 @@ Public Class Form1
         Double.TryParse(Label3.Text, P)
         Double.TryParse(Label2.Text, Q)
 
-        If Q > 100 Or P > 37.5 Then
+        If Q > 100 And P > 37.5 Then
             Label7.Text = "Critical"
             PictureBox4.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
-        ElseIf Q < 40 Or P < 33.2 Then
+        ElseIf Q < 40 And P < 33.2 Then
             Label7.Text = "Critical"
             PictureBox4.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
-        ElseIf P > 37.5 And Q > 0 Then
+        ElseIf P > 37.5 Or P < 33.2 Then
             Label7.Text = "Unstable"
             PictureBox4.BackgroundImage = My.Resources.yellow
-        ElseIf P < 33.2 And Q > 0 Then
-            Label7.Text = "Unstable"
-            PictureBox4.BackgroundImage = My.Resources.yellow
-        ElseIf Q > 100 And P > 33.2 Then
-            Label7.Text = "Unstable"
-            PictureBox4.BackgroundImage = My.Resources.yellow
-        ElseIf Q < 40 And P > 33.2 Then
+        ElseIf Q > 100 Or Q < 40 Then
             Label7.Text = "Unstable"
             PictureBox4.BackgroundImage = My.Resources.yellow
         ElseIf Q = 0 Then
