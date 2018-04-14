@@ -225,6 +225,7 @@ Public Class Form1
     Private Sub Label2_TextChanged(sender As Object, e As EventArgs) Handles Label2.TextChanged
         P = Double.TryParse(Label3.Text, P)
         Q = Double.TryParse(Label2.Text, Q)
+        MsgBox(P)
         If Q > 100 And P > 37.5 Then
             Label7.Text = "Critical"
             PictureBox4.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
