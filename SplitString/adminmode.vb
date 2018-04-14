@@ -21,7 +21,6 @@ Public Class adminmode
 
         Label40.Text = My.Settings.tra3id
         Label29.Text = My.Settings.tra3name
-        MsgBox(My.Settings.tracker)
         If My.Settings.tracker = 1 Then
             Panel1.Show()
             Panel3.Hide()

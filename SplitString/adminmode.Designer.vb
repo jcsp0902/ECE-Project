@@ -169,6 +169,7 @@ Partial Class adminmode
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(0, 13)
         Me.Label4.TabIndex = 35
+        Me.Label4.Visible = False
         '
         'Panel2
         '
@@ -828,6 +829,7 @@ Partial Class adminmode
         Me.Label9.Size = New System.Drawing.Size(39, 13)
         Me.Label9.TabIndex = 37
         Me.Label9.Text = "Label9"
+        Me.Label9.Visible = False
         '
         'Label12
         '
