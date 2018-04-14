@@ -11,7 +11,7 @@ Public Class adminmode
     Dim P As Double
     Dim Q As Double
     Private Sub adminmode_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        WebKitBrowser1.Navigate("http://maps.google.com/maps?q=14%C2%B0+50%27+20.40%22+N,+120%C2%B0+44%27+41.48%22+E")
+        'WebKitBrowser1.Navigate("http://maps.google.com/maps?q=14%C2%B0+50%27+20.40%22+N,+120%C2%B0+44%27+41.48%22+E")
         Label1.Text = My.Settings.tra1id
         Label17.Text = My.Settings.tra1name
 
@@ -204,24 +204,24 @@ Public Class adminmode
         count = 0
         'Dim s As String = "1234567890*0*29.58*"
         If Label9.Text = "222" Then
-            PictureBox10.BackgroundImage = My.Resources.exclamation
+            PictureBox7.BackgroundImage = My.Resources.exclamation
             My.Settings.tra1e = True
             My.Settings.Save()
 
         ElseIf Label9.Text = "2" Then
-            PictureBox10.BackgroundImage = My.Resources.exclamation
+            PictureBox7.BackgroundImage = My.Resources.exclamation
             My.Settings.tra1e = True
             My.Settings.Save()
         ElseIf Label9.Text = "22" Then
-            PictureBox10.BackgroundImage = My.Resources.exclamation
+            PictureBox7.BackgroundImage = My.Resources.exclamation
             My.Settings.tra1e = True
             My.Settings.Save()
         ElseIf Label9.Text = "2222" Then
-            PictureBox10.BackgroundImage = My.Resources.exclamation
+            PictureBox7.BackgroundImage = My.Resources.exclamation
             My.Settings.tra1e = True
             My.Settings.Save()
         ElseIf Label9.Text = "22222" Then
-            PictureBox10.BackgroundImage = My.Resources.exclamation
+            PictureBox7.BackgroundImage = My.Resources.exclamation
             My.Settings.tra1e = True
             My.Settings.Save()
         Else
@@ -250,7 +250,7 @@ Public Class adminmode
                     ElseIf count = 5 Then
                         Try
                             If Not word = "" Then
-                                If time = 10 Then
+                                If time = My.Settings.delay Then
                                     MsgBox("yow")
                                     Label4.Text = word
                                     time = 0
@@ -276,6 +276,7 @@ Public Class adminmode
     End Sub
 
     Private Sub Label4_TextChanged(sender As Object, e As EventArgs) Handles Label4.TextChanged
+        MsgBox("yow")
         WebKitBrowser1.Navigate(Label4.Text)
     End Sub
 
