@@ -251,8 +251,7 @@ Public Class adminmode
                         Try
                             If Not word = "" Then
 
-                                MsgBox("yow")
-                                    Label4.Text = word
+                                Label4.Text = word
 
                             End If
 
