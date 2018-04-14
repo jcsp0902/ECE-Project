@@ -695,7 +695,6 @@ Partial Class adminmode
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.Label17)
         Me.Panel1.Controls.Add(Me.Label13)
-        Me.Panel1.Controls.Add(Me.Label9)
         Me.Panel1.Controls.Add(Me.Label12)
         Me.Panel1.Controls.Add(Me.Label16)
         Me.Panel1.Controls.Add(Me.Label14)
@@ -825,12 +824,11 @@ Partial Class adminmode
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(346, 45)
+        Me.Label9.Location = New System.Drawing.Point(12, 9)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(39, 13)
         Me.Label9.TabIndex = 37
         Me.Label9.Text = "Label9"
-        Me.Label9.Visible = False
         '
         'Label12
         '
@@ -918,6 +916,7 @@ Partial Class adminmode
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox3)
+        Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.WebKitBrowser1)
