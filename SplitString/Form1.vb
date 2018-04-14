@@ -220,18 +220,30 @@ Public Class Form1
     End Sub
 
     Private Sub Label2_TextChanged(sender As Object, e As EventArgs) Handles Label2.TextChanged
-        If Label2.Text >= 40 Then
-            Label7.Text = "Normal"
-            PictureBox4.BackgroundImage = My.Resources.green
-        ElseIf Label2.Text > 0 Then
+        If Label2.Text > 100 And Label3.Text > 37.5 Then
             Label7.Text = "Critical"
             PictureBox4.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
-        ElseIf Label2.Text > 0 Then
+        ElseIf Label2.Text < 40 And Label3.Text < 33.2 Then
             Label7.Text = "Critical"
             PictureBox4.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
+        ElseIf Label3.Text > 37.5 Then
+            Label7.Text = "Unstable"
+            PictureBox4.BackgroundImage = My.Resources.yellow
+        ElseIf Label3.Text < 33.2 Then
+            Label7.Text = "Unstable"
+            PictureBox4.BackgroundImage = My.Resources.yellow
+        ElseIf Label2.Text > 100 Then
+            Label7.Text = "Unstable"
+            PictureBox4.BackgroundImage = My.Resources.yellow
+        ElseIf Label2.Text < 40 Then
+            Label7.Text = "Unstable"
+            PictureBox4.BackgroundImage = My.Resources.yellow
         ElseIf Label2.Text = 0 Then
             Label7.Text = "Dead"
             PictureBox4.BackgroundImage = My.Resources.black
+        Else
+            Label7.Text = "Normal"
+            PictureBox4.BackgroundImage = My.Resources.green
         End If
     End Sub
 

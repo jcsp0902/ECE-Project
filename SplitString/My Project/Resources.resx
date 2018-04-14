@@ -127,11 +127,14 @@
   <data name="Circle_-_black_simple_fullpage.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Circle_-_black_simple_fullpage.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="exclamation" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\exclamation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="30441541_10210671782980080_7206142304422199296_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\30441541_10210671782980080_7206142304422199296_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="30698321_10210687648896718_1015073562874085376_o2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\30698321_10210687648896718_1015073562874085376_o2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="30697733_10210687648816716_1403425674009509888_o (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\30697733_10210687648816716_1403425674009509888_o (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="30698321_10210687648896718_1015073562874085376_o" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\30698321_10210687648896718_1015073562874085376_o.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,8 +160,8 @@
   <data name="30697733_10210687648816716_1403425674009509888_o - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\30697733_10210687648816716_1403425674009509888_o - Copy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="30698321_10210687648896718_1015073562874085376_o - Copy (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\30698321_10210687648896718_1015073562874085376_o - Copy (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,8 +175,8 @@
   <data name="28460186_10210352072667522_642282210_o - Copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\28460186_10210352072667522_642282210_o - Copy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="30698321_10210687648896718_1015073562874085376_o - Copy (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\30698321_10210687648896718_1015073562874085376_o - Copy (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ski_trail_rating_symbol_red_circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ski_trail_rating_symbol_red_circle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,13 +184,13 @@
   <data name="splashscreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\splashscreen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="30697733_10210687648816716_1403425674009509888_o (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\30697733_10210687648816716_1403425674009509888_o (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="exclamation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exclamation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="green" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="30441541_10210671782980080_7206142304422199296_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\30441541_10210671782980080_7206142304422199296_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="yellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

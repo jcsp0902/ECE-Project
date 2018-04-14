@@ -301,5 +301,8 @@
   <ItemGroup>
     <None Include="Resources\30441541_10210671782980080_7206142304422199296_n.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

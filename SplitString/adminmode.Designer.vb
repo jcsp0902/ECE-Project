@@ -758,7 +758,7 @@ Partial Class adminmode
         '
         'PictureBox7
         '
-        Me.PictureBox7.BackgroundImage = Global.SplitString.My.Resources.Resources.Circle___black_simple_fullpage1
+        Me.PictureBox7.BackgroundImage = Global.SplitString.My.Resources.Resources.Circle___black_simple_fullpage_svg
         Me.PictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBox7.Location = New System.Drawing.Point(403, 94)
         Me.PictureBox7.Name = "PictureBox7"
