@@ -74,6 +74,9 @@
   <PropertyGroup>
     <SignManifests>true</SignManifests>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo1.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -303,6 +306,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo1.ico" />
+    <None Include="Resources\LOL.png" />
+    <None Include="Resources\11.png" />
+    <None Include="Resources\SEE1.PNG" />
+    <None Include="Resources\SEE.PNG" />
+    <None Include="Resources\help.png" />
+    <None Include="Resources\1.png" />
+    <None Include="Resources\COMRADE - Copy.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

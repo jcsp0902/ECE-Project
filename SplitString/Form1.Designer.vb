@@ -97,6 +97,7 @@ Partial Class Form1
         Me.Button1 = New System.Windows.Forms.Button()
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.Button6 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -766,11 +767,12 @@ Partial Class Form1
         '
         Me.Button4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button4.Location = New System.Drawing.Point(654, 441)
+        Me.Button4.BackgroundImage = Global.SplitString.My.Resources.Resources.SEE1
+        Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button4.Location = New System.Drawing.Point(654, 412)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(193, 40)
+        Me.Button4.Size = New System.Drawing.Size(193, 69)
         Me.Button4.TabIndex = 21
-        Me.Button4.Text = "See Full Map"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'WebKitBrowser1
@@ -874,6 +876,19 @@ Partial Class Form1
         Me.Panel6.Size = New System.Drawing.Size(133, 57)
         Me.Panel6.TabIndex = 54
         '
+        'Button6
+        '
+        Me.Button6.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button6.BackColor = System.Drawing.Color.Transparent
+        Me.Button6.BackgroundImage = Global.SplitString.My.Resources.Resources.help
+        Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button6.Location = New System.Drawing.Point(10, 3)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(47, 43)
+        Me.Button6.TabIndex = 57
+        Me.Button6.UseVisualStyleBackColor = False
+        Me.Button6.Visible = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -881,6 +896,7 @@ Partial Class Form1
         Me.BackgroundImage = Global.SplitString.My.Resources.Resources._30698321_10210687648896718_1015073562874085376_o1
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1049, 556)
+        Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Panel6)
         Me.Controls.Add(Me.PictureBox8)
         Me.Controls.Add(Me.Button1)
@@ -1000,4 +1016,5 @@ Partial Class Form1
     Friend WithEvents PictureBox11 As PictureBox
     Friend WithEvents PictureBox13 As PictureBox
     Friend WithEvents Panel6 As Panel
+    Friend WithEvents Button6 As Button
 End Class

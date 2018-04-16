@@ -101,6 +101,7 @@ Partial Class adminmode
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.Button6 = New System.Windows.Forms.Button()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -121,9 +122,10 @@ Partial Class adminmode
         '
         'PictureBox2
         '
-        Me.PictureBox2.BackgroundImage = Global.SplitString.My.Resources.Resources._30697733_10210687648816716_1403425674009509888_o__1_
+        Me.PictureBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureBox2.BackgroundImage = Global.SplitString.My.Resources.Resources.COMRADE___Copy1
         Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox2.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.PictureBox2.Location = New System.Drawing.Point(0, 494)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(1049, 62)
@@ -132,6 +134,7 @@ Partial Class adminmode
         '
         'PictureBox3
         '
+        Me.PictureBox3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox3.BackgroundImage = Global.SplitString.My.Resources.Resources._30698321_10210687648896718_1015073562874085376_o___Copy1
         Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBox3.Location = New System.Drawing.Point(981, 0)
@@ -142,9 +145,10 @@ Partial Class adminmode
         '
         'PictureBox1
         '
+        Me.PictureBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox1.BackgroundImage = Global.SplitString.My.Resources.Resources._30697733_10210687648816716_1403425674009509888_o___Copy
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Top
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(1049, 50)
@@ -154,6 +158,7 @@ Partial Class adminmode
         '
         'PictureBox4
         '
+        Me.PictureBox4.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.PictureBox4.BackColor = System.Drawing.SystemColors.ControlDark
         Me.PictureBox4.BackgroundImage = Global.SplitString.My.Resources.Resources._28460186_10210352072667522_642282210_o___Copy
         Me.PictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
@@ -174,6 +179,8 @@ Partial Class adminmode
         '
         'Panel2
         '
+        Me.Panel2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Panel2.Location = New System.Drawing.Point(1, 38)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(482, 455)
@@ -627,6 +634,9 @@ Partial Class adminmode
         '
         'WebKitBrowser1
         '
+        Me.WebKitBrowser1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.WebKitBrowser1.BackColor = System.Drawing.Color.White
         Me.WebKitBrowser1.Enabled = False
         Me.WebKitBrowser1.Location = New System.Drawing.Point(0, -114)
@@ -637,6 +647,7 @@ Partial Class adminmode
         '
         'Label43
         '
+        Me.Label43.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label43.AutoSize = True
         Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label43.Location = New System.Drawing.Point(930, 64)
@@ -647,19 +658,23 @@ Partial Class adminmode
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(673, 436)
+        Me.Button4.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button4.BackgroundImage = Global.SplitString.My.Resources.Resources.SEE1
+        Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button4.Location = New System.Drawing.Point(681, 419)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(193, 40)
+        Me.Button4.Size = New System.Drawing.Size(193, 69)
         Me.Button4.TabIndex = 52
-        Me.Button4.Text = "See Full Map"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Panel6
         '
+        Me.Panel6.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel6.BackColor = System.Drawing.Color.Transparent
         Me.Panel6.BackgroundImage = Global.SplitString.My.Resources.Resources._30697733_10210687648816716_1403425674009509888_o__1____Copy
         Me.Panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel6.Location = New System.Drawing.Point(903, 497)
+        Me.Panel6.Location = New System.Drawing.Point(913, 495)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(133, 57)
         Me.Panel6.TabIndex = 53
@@ -669,12 +684,13 @@ Partial Class adminmode
         '
         'Button1
         '
+        Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button1.BackColor = System.Drawing.Color.Transparent
-        Me.Button1.BackgroundImage = Global.SplitString.My.Resources.Resources.settings
+        Me.Button1.BackgroundImage = Global.SplitString.My.Resources.Resources.settings3
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button1.Location = New System.Drawing.Point(830, 500)
+        Me.Button1.Location = New System.Drawing.Point(843, 498)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(64, 50)
+        Me.Button1.Size = New System.Drawing.Size(64, 54)
         Me.Button1.TabIndex = 54
         Me.Button1.UseVisualStyleBackColor = False
         '
@@ -893,19 +909,34 @@ Partial Class adminmode
         '
         'RichTextBox1
         '
-        Me.RichTextBox1.Location = New System.Drawing.Point(655, 64)
+        Me.RichTextBox1.Location = New System.Drawing.Point(565, 147)
         Me.RichTextBox1.Name = "RichTextBox1"
         Me.RichTextBox1.Size = New System.Drawing.Size(381, 249)
         Me.RichTextBox1.TabIndex = 55
         Me.RichTextBox1.Text = ""
         Me.RichTextBox1.Visible = False
         '
+        'Button6
+        '
+        Me.Button6.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button6.BackColor = System.Drawing.Color.Transparent
+        Me.Button6.BackgroundImage = Global.SplitString.My.Resources.Resources.help
+        Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button6.Location = New System.Drawing.Point(9, 4)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(47, 43)
+        Me.Button6.TabIndex = 56
+        Me.Button6.UseVisualStyleBackColor = False
+        Me.Button6.Visible = False
+        '
         'adminmode
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.SplitString.My.Resources.Resources._30698321_10210687648896718_1015073562874085376_o2
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1049, 556)
+        Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.RichTextBox1)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Button1)
@@ -926,6 +957,7 @@ Partial Class adminmode
         Me.Name = "adminmode"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "adminmode"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1027,4 +1059,5 @@ Partial Class adminmode
     Friend WithEvents RichTextBox1 As RichTextBox
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents PictureBox8 As PictureBox
+    Friend WithEvents Button6 As Button
 End Class

@@ -22,6 +22,16 @@ SplitString
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:SplitString.My.Resources.Resources._1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SplitString.My.Resources.Resources._11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:SplitString.My.Resources.Resources._28459871_10210352072547519_1709162791_o">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -102,6 +112,11 @@ SplitString
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:SplitString.My.Resources.Resources.COMRADE___Copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:SplitString.My.Resources.Resources.edit">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -117,7 +132,27 @@ SplitString
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:SplitString.My.Resources.Resources.help">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SplitString.My.Resources.Resources.LOL">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:SplitString.My.Resources.Resources.orange">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SplitString.My.Resources.Resources.SEE">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SplitString.My.Resources.Resources.SEE1">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
