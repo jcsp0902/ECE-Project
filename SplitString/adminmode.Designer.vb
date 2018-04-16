@@ -93,13 +93,13 @@ Partial Class adminmode
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -148,6 +148,7 @@ Partial Class adminmode
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(1049, 50)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 26
         Me.PictureBox1.TabStop = False
         '
@@ -770,9 +771,9 @@ Partial Class adminmode
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(174, 61)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(19, 13)
+        Me.Label2.Size = New System.Drawing.Size(13, 13)
         Me.Label2.TabIndex = 33
-        Me.Label2.Text = "50"
+        Me.Label2.Text = "0"
         '
         'PictureBox5
         '
@@ -821,16 +822,6 @@ Partial Class adminmode
         Me.Label13.TabIndex = 41
         Me.Label13.Text = "Heart Rate:"
         '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(12, 9)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(39, 13)
-        Me.Label9.TabIndex = 37
-        Me.Label9.Text = "Label9"
-        Me.Label9.Visible = False
-        '
         'Label12
         '
         Me.Label12.AutoSize = True
@@ -876,9 +867,9 @@ Partial Class adminmode
         Me.Label7.AutoSize = True
         Me.Label7.Location = New System.Drawing.Point(174, 109)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(30, 13)
+        Me.Label7.Size = New System.Drawing.Size(25, 13)
         Me.Label7.TabIndex = 36
-        Me.Label7.Text = "BPM"
+        Me.Label7.Text = "------"
         '
         'Label15
         '
@@ -889,6 +880,16 @@ Partial Class adminmode
         Me.Label15.Size = New System.Drawing.Size(62, 16)
         Me.Label15.TabIndex = 43
         Me.Label15.Text = "Location:"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(12, 9)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(39, 13)
+        Me.Label9.TabIndex = 37
+        Me.Label9.Text = "Label9"
+        Me.Label9.Visible = False
         '
         'RichTextBox1
         '
