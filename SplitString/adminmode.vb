@@ -356,4 +356,9 @@ Public Class adminmode
         SerialPort1.Write(1)
         Button1.BackColor = Color.Blue
     End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+
+        Process.Start(My.Application.Info.DirectoryPath + "/USER-MANUAL-COMRADE.pdf")
+    End Sub
 End Class

@@ -174,6 +174,12 @@
     <Compile Include="splashscreen.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Usermanual.Designer.vb">
+      <DependentUpon>Usermanual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Usermanual.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Add tracker.resx">
@@ -205,6 +211,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="splashscreen.resx">
       <DependentUpon>splashscreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usermanual.resx">
+      <DependentUpon>Usermanual.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -322,6 +331,25 @@
     <None Include="Resources\help.png" />
     <None Include="Resources\1.png" />
     <None Include="Resources\COMRADE - Copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxSHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="SHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

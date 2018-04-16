@@ -17,7 +17,7 @@
     End Sub
 
     Private Sub Panel2_Click(sender As Object, e As EventArgs) Handles Panel2.Click
-        If TextBox1.Text = "estef" And TextBox2.Text = "ganda" Then
+        If TextBox1.Text = "guest" And TextBox2.Text = "guest" Then
 
             Form1.Show()
 

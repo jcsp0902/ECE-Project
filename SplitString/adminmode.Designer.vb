@@ -31,6 +31,7 @@ Partial Class adminmode
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Button8 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Label46 = New System.Windows.Forms.Label()
         Me.Label47 = New System.Windows.Forms.Label()
@@ -51,6 +52,7 @@ Partial Class adminmode
         Me.Label27 = New System.Windows.Forms.Label()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Panel4 = New System.Windows.Forms.Panel()
+        Me.Button9 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Label48 = New System.Windows.Forms.Label()
         Me.PictureBox11 = New System.Windows.Forms.PictureBox()
@@ -80,6 +82,7 @@ Partial Class adminmode
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.SerialPort1 = New System.IO.Ports.SerialPort(Me.components)
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Button7 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label45 = New System.Windows.Forms.Label()
         Me.Label44 = New System.Windows.Forms.Label()
@@ -100,9 +103,6 @@ Partial Class adminmode
         Me.Label9 = New System.Windows.Forms.Label()
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
         Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -127,7 +127,7 @@ Partial Class adminmode
         Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBox2.Location = New System.Drawing.Point(0, 494)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(1049, 62)
+        Me.PictureBox2.Size = New System.Drawing.Size(1044, 62)
         Me.PictureBox2.TabIndex = 28
         Me.PictureBox2.TabStop = False
         '
@@ -136,7 +136,7 @@ Partial Class adminmode
         Me.PictureBox3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox3.BackgroundImage = Global.SplitString.My.Resources.Resources._30698321_10210687648896718_1015073562874085376_o___Copy1
         Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox3.Location = New System.Drawing.Point(981, 0)
+        Me.PictureBox3.Location = New System.Drawing.Point(976, 0)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(68, 49)
         Me.PictureBox3.TabIndex = 27
@@ -150,7 +150,7 @@ Partial Class adminmode
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(1049, 50)
+        Me.PictureBox1.Size = New System.Drawing.Size(1044, 50)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 26
         Me.PictureBox1.TabStop = False
@@ -213,6 +213,16 @@ Partial Class adminmode
         Me.Panel3.Size = New System.Drawing.Size(482, 132)
         Me.Panel3.TabIndex = 49
         Me.Panel3.Visible = False
+        '
+        'Button8
+        '
+        Me.Button8.BackColor = System.Drawing.Color.White
+        Me.Button8.Location = New System.Drawing.Point(394, 95)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(75, 32)
+        Me.Button8.TabIndex = 58
+        Me.Button8.Text = "Respond"
+        Me.Button8.UseVisualStyleBackColor = False
         '
         'Button3
         '
@@ -428,6 +438,16 @@ Partial Class adminmode
         Me.Panel4.TabIndex = 49
         Me.Panel4.Visible = False
         '
+        'Button9
+        '
+        Me.Button9.BackColor = System.Drawing.Color.White
+        Me.Button9.Location = New System.Drawing.Point(395, 90)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(75, 32)
+        Me.Button9.TabIndex = 60
+        Me.Button9.Text = "Respond"
+        Me.Button9.UseVisualStyleBackColor = False
+        '
         'Button5
         '
         Me.Button5.BackgroundImage = Global.SplitString.My.Resources.Resources.edit
@@ -631,7 +651,7 @@ Partial Class adminmode
         Me.WebKitBrowser1.Enabled = False
         Me.WebKitBrowser1.Location = New System.Drawing.Point(0, -114)
         Me.WebKitBrowser1.Name = "WebKitBrowser1"
-        Me.WebKitBrowser1.Size = New System.Drawing.Size(1061, 735)
+        Me.WebKitBrowser1.Size = New System.Drawing.Size(1056, 735)
         Me.WebKitBrowser1.TabIndex = 50
         Me.WebKitBrowser1.Url = Nothing
         '
@@ -640,7 +660,7 @@ Partial Class adminmode
         Me.Label43.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label43.AutoSize = True
         Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label43.Location = New System.Drawing.Point(930, 64)
+        Me.Label43.Location = New System.Drawing.Point(925, 64)
         Me.Label43.Name = "Label43"
         Me.Label43.Size = New System.Drawing.Size(107, 20)
         Me.Label43.TabIndex = 51
@@ -654,7 +674,7 @@ Partial Class adminmode
         Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button4.Location = New System.Drawing.Point(681, 419)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(193, 69)
+        Me.Button4.Size = New System.Drawing.Size(188, 69)
         Me.Button4.TabIndex = 52
         Me.Button4.UseVisualStyleBackColor = True
         '
@@ -664,7 +684,7 @@ Partial Class adminmode
         Me.Panel6.BackColor = System.Drawing.Color.Transparent
         Me.Panel6.BackgroundImage = Global.SplitString.My.Resources.Resources._30697733_10210687648816716_1403425674009509888_o__1____Copy
         Me.Panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel6.Location = New System.Drawing.Point(913, 495)
+        Me.Panel6.Location = New System.Drawing.Point(908, 495)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(133, 57)
         Me.Panel6.TabIndex = 53
@@ -678,7 +698,7 @@ Partial Class adminmode
         Me.Button1.BackColor = System.Drawing.Color.Transparent
         Me.Button1.BackgroundImage = Global.SplitString.My.Resources.Resources.settings3
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button1.Location = New System.Drawing.Point(843, 498)
+        Me.Button1.Location = New System.Drawing.Point(838, 498)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(64, 54)
         Me.Button1.TabIndex = 54
@@ -713,6 +733,16 @@ Partial Class adminmode
         Me.Panel1.Size = New System.Drawing.Size(482, 132)
         Me.Panel1.TabIndex = 30
         Me.Panel1.Visible = False
+        '
+        'Button7
+        '
+        Me.Button7.BackColor = System.Drawing.Color.White
+        Me.Button7.Location = New System.Drawing.Point(394, 91)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(75, 32)
+        Me.Button7.TabIndex = 57
+        Me.Button7.Text = "Respond"
+        Me.Button7.UseVisualStyleBackColor = False
         '
         'Button2
         '
@@ -902,42 +932,12 @@ Partial Class adminmode
         Me.Button6.BackColor = System.Drawing.Color.Transparent
         Me.Button6.BackgroundImage = Global.SplitString.My.Resources.Resources.help
         Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button6.Location = New System.Drawing.Point(9, 4)
+        Me.Button6.Location = New System.Drawing.Point(4, 4)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(47, 43)
         Me.Button6.TabIndex = 56
         Me.Button6.UseVisualStyleBackColor = False
         Me.Button6.Visible = False
-        '
-        'Button7
-        '
-        Me.Button7.BackColor = System.Drawing.Color.White
-        Me.Button7.Location = New System.Drawing.Point(394, 91)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(75, 32)
-        Me.Button7.TabIndex = 57
-        Me.Button7.Text = "Respond"
-        Me.Button7.UseVisualStyleBackColor = False
-        '
-        'Button8
-        '
-        Me.Button8.BackColor = System.Drawing.Color.White
-        Me.Button8.Location = New System.Drawing.Point(394, 95)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(75, 32)
-        Me.Button8.TabIndex = 58
-        Me.Button8.Text = "Respond"
-        Me.Button8.UseVisualStyleBackColor = False
-        '
-        'Button9
-        '
-        Me.Button9.BackColor = System.Drawing.Color.White
-        Me.Button9.Location = New System.Drawing.Point(395, 90)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(75, 32)
-        Me.Button9.TabIndex = 60
-        Me.Button9.Text = "Respond"
-        Me.Button9.UseVisualStyleBackColor = False
         '
         'adminmode
         '
@@ -945,7 +945,7 @@ Partial Class adminmode
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.SplitString.My.Resources.Resources._30698321_10210687648896718_1015073562874085376_o2
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1049, 556)
+        Me.ClientSize = New System.Drawing.Size(1044, 556)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.RichTextBox1)
         Me.Controls.Add(Me.Panel1)

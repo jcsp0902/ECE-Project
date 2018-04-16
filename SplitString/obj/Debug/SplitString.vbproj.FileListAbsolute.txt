@@ -20,3 +20,9 @@ C:\Users\asus\Documents\Visual Studio 2017\Projects\SplitString\SplitString\obj\
 C:\Users\asus\Documents\Visual Studio 2017\Projects\SplitString\SplitString\obj\Debug\SplitString.Port.resources
 C:\Users\asus\Documents\Visual Studio 2017\Projects\SplitString\SplitString\obj\Debug\SplitString.Edit.resources
 C:\Users\asus\Documents\Visual Studio 2017\Projects\SplitString\SplitString\obj\Debug\SplitString.splashscreen.resources
+C:\Users\asus\documents\visual studio 2017\Projects\SplitString\SplitString\obj\Debug\SplitString.Usermanual.resources
+C:\Users\asus\documents\visual studio 2017\Projects\SplitString\SplitString\bin\Debug\Interop.SHDocVw.dll
+C:\Users\asus\documents\visual studio 2017\Projects\SplitString\SplitString\bin\Debug\AxInterop.SHDocVw.dll
+C:\Users\asus\documents\visual studio 2017\Projects\SplitString\SplitString\obj\Debug\Interop.SHDocVw.dll
+C:\Users\asus\documents\visual studio 2017\Projects\SplitString\SplitString\obj\Debug\AxInterop.SHDocVw.dll
+C:\Users\asus\documents\visual studio 2017\Projects\SplitString\SplitString\obj\Debug\SplitString.vbproj.ResolveComReference.cache

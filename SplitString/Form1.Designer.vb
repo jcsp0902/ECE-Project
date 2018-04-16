@@ -33,6 +33,8 @@ Partial Class Form1
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
         Me.Label45 = New System.Windows.Forms.Label()
         Me.Label44 = New System.Windows.Forms.Label()
         Me.PictureBox7 = New System.Windows.Forms.PictureBox()
@@ -46,6 +48,7 @@ Partial Class Form1
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.PictureBox11 = New System.Windows.Forms.PictureBox()
         Me.Label46 = New System.Windows.Forms.Label()
         Me.PictureBox10 = New System.Windows.Forms.PictureBox()
@@ -66,6 +69,7 @@ Partial Class Form1
         Me.Label27 = New System.Windows.Forms.Label()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.PictureBox13 = New System.Windows.Forms.PictureBox()
         Me.Label48 = New System.Windows.Forms.Label()
         Me.PictureBox12 = New System.Windows.Forms.PictureBox()
@@ -97,11 +101,8 @@ Partial Class Form1
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.Button6 = New System.Windows.Forms.Button()
-        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
@@ -116,7 +117,6 @@ Partial Class Form1
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -213,6 +213,26 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(403, 150)
         Me.Panel1.TabIndex = 11
         Me.Panel1.Visible = False
+        '
+        'Button7
+        '
+        Me.Button7.BackColor = System.Drawing.Color.White
+        Me.Button7.Enabled = False
+        Me.Button7.Location = New System.Drawing.Point(321, 113)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(75, 32)
+        Me.Button7.TabIndex = 58
+        Me.Button7.UseVisualStyleBackColor = False
+        '
+        'PictureBox9
+        '
+        Me.PictureBox9.BackgroundImage = Global.SplitString.My.Resources.Resources.Circle___black_simple_fullpage_svg
+        Me.PictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox9.Location = New System.Drawing.Point(366, 115)
+        Me.PictureBox9.Name = "PictureBox9"
+        Me.PictureBox9.Size = New System.Drawing.Size(30, 30)
+        Me.PictureBox9.TabIndex = 25
+        Me.PictureBox9.TabStop = False
         '
         'Label45
         '
@@ -359,6 +379,16 @@ Partial Class Form1
         Me.Panel2.Size = New System.Drawing.Size(403, 150)
         Me.Panel2.TabIndex = 19
         Me.Panel2.Visible = False
+        '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.White
+        Me.Button2.Enabled = False
+        Me.Button2.Location = New System.Drawing.Point(321, 111)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 32)
+        Me.Button2.TabIndex = 59
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'PictureBox11
         '
@@ -574,6 +604,16 @@ Partial Class Form1
         Me.Panel3.TabIndex = 20
         Me.Panel3.Visible = False
         '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.White
+        Me.Button3.Enabled = False
+        Me.Button3.Location = New System.Drawing.Point(321, 113)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 32)
+        Me.Button3.TabIndex = 59
+        Me.Button3.UseVisualStyleBackColor = False
+        '
         'PictureBox13
         '
         Me.PictureBox13.BackgroundImage = Global.SplitString.My.Resources.Resources.Circle___black_simple_fullpage_svg
@@ -767,7 +807,7 @@ Partial Class Form1
         Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button4.Location = New System.Drawing.Point(654, 412)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(193, 69)
+        Me.Button4.Size = New System.Drawing.Size(188, 69)
         Me.Button4.TabIndex = 21
         Me.Button4.UseVisualStyleBackColor = True
         '
@@ -780,7 +820,7 @@ Partial Class Form1
         Me.WebKitBrowser1.Enabled = False
         Me.WebKitBrowser1.Location = New System.Drawing.Point(3, 3)
         Me.WebKitBrowser1.Name = "WebKitBrowser1"
-        Me.WebKitBrowser1.Size = New System.Drawing.Size(1061, 633)
+        Me.WebKitBrowser1.Size = New System.Drawing.Size(1056, 633)
         Me.WebKitBrowser1.TabIndex = 20
         Me.WebKitBrowser1.Url = Nothing
         '
@@ -792,7 +832,7 @@ Partial Class Form1
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBox1.Location = New System.Drawing.Point(0, -1)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(1049, 50)
+        Me.PictureBox1.Size = New System.Drawing.Size(1044, 50)
         Me.PictureBox1.TabIndex = 22
         Me.PictureBox1.TabStop = False
         '
@@ -803,7 +843,7 @@ Partial Class Form1
         Me.PictureBox2.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.PictureBox2.Location = New System.Drawing.Point(0, 494)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(1049, 62)
+        Me.PictureBox2.Size = New System.Drawing.Size(1044, 62)
         Me.PictureBox2.TabIndex = 23
         Me.PictureBox2.TabStop = False
         '
@@ -812,7 +852,7 @@ Partial Class Form1
         Me.PictureBox3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox3.BackgroundImage = Global.SplitString.My.Resources.Resources._30698321_10210687648896718_1015073562874085376_o___Copy1
         Me.PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox3.Location = New System.Drawing.Point(981, -1)
+        Me.PictureBox3.Location = New System.Drawing.Point(976, -1)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(68, 49)
         Me.PictureBox3.TabIndex = 26
@@ -832,7 +872,7 @@ Partial Class Form1
         Me.Label43.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label43.AutoSize = True
         Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label43.Location = New System.Drawing.Point(930, 57)
+        Me.Label43.Location = New System.Drawing.Point(925, 57)
         Me.Label43.Name = "Label43"
         Me.Label43.Size = New System.Drawing.Size(107, 20)
         Me.Label43.TabIndex = 21
@@ -867,7 +907,7 @@ Partial Class Form1
         Me.Panel6.BackColor = System.Drawing.Color.Transparent
         Me.Panel6.BackgroundImage = Global.SplitString.My.Resources.Resources._30697733_10210687648816716_1403425674009509888_o__1____Copy
         Me.Panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Panel6.Location = New System.Drawing.Point(916, 499)
+        Me.Panel6.Location = New System.Drawing.Point(911, 499)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(133, 57)
         Me.Panel6.TabIndex = 54
@@ -878,52 +918,12 @@ Partial Class Form1
         Me.Button6.BackColor = System.Drawing.Color.Transparent
         Me.Button6.BackgroundImage = Global.SplitString.My.Resources.Resources.help
         Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button6.Location = New System.Drawing.Point(10, 3)
+        Me.Button6.Location = New System.Drawing.Point(5, 3)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(47, 43)
         Me.Button6.TabIndex = 57
         Me.Button6.UseVisualStyleBackColor = False
         Me.Button6.Visible = False
-        '
-        'PictureBox9
-        '
-        Me.PictureBox9.BackgroundImage = Global.SplitString.My.Resources.Resources.Circle___black_simple_fullpage_svg
-        Me.PictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox9.Location = New System.Drawing.Point(366, 115)
-        Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(30, 30)
-        Me.PictureBox9.TabIndex = 25
-        Me.PictureBox9.TabStop = False
-        '
-        'Button7
-        '
-        Me.Button7.BackColor = System.Drawing.Color.White
-        Me.Button7.Enabled = False
-        Me.Button7.Location = New System.Drawing.Point(321, 113)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(75, 32)
-        Me.Button7.TabIndex = 58
-        Me.Button7.UseVisualStyleBackColor = False
-        '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.Color.White
-        Me.Button2.Enabled = False
-        Me.Button2.Location = New System.Drawing.Point(321, 111)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 32)
-        Me.Button2.TabIndex = 59
-        Me.Button2.UseVisualStyleBackColor = False
-        '
-        'Button3
-        '
-        Me.Button3.BackColor = System.Drawing.Color.White
-        Me.Button3.Enabled = False
-        Me.Button3.Location = New System.Drawing.Point(321, 113)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 32)
-        Me.Button3.TabIndex = 59
-        Me.Button3.UseVisualStyleBackColor = False
         '
         'Form1
         '
@@ -931,7 +931,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.SplitString.My.Resources.Resources._30698321_10210687648896718_1015073562874085376_o1
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1049, 556)
+        Me.ClientSize = New System.Drawing.Size(1044, 556)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Panel6)
         Me.Controls.Add(Me.PictureBox8)
@@ -956,6 +956,7 @@ Partial Class Form1
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
@@ -972,7 +973,6 @@ Partial Class Form1
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

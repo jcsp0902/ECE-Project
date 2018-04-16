@@ -369,4 +369,9 @@ Public Class Form1
         Me.Close()
 
     End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+
+        Process.Start(My.Application.Info.DirectoryPath + "/USER-MANUAL-COMRADE.pdf")
+    End Sub
 End Class
