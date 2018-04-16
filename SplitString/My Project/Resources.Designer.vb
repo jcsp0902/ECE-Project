@@ -123,6 +123,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property _30697733_10210687648816716_1403425674009509888_o___Copy1() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("30697733_10210687648816716_1403425674009509888_o - Copy1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property _30697733_10210687648816716_1403425674009509888_o__1_() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("30697733_10210687648816716_1403425674009509888_o (1)", resourceCulture)
@@ -236,6 +246,16 @@ Namespace My.Resources
         Friend ReadOnly Property Circle___black_simple_fullpage1() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Circle_-_black_simple_fullpage1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property COMRADE() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("COMRADE", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

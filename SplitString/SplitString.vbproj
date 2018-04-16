@@ -309,6 +309,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="logo1.ico" />
+    <None Include="Resources\COMRADE.jpg" />
+    <None Include="Resources\30697733_10210687648816716_1403425674009509888_o - Copy1.jpg" />
+    <None Include="Resources\settings3.png" />
+    <None Include="Resources\COMRADE - Copy1.jpg" />
+    <None Include="Resources\settings2.png" />
+    <None Include="Resources\settings1.png" />
     <None Include="Resources\LOL.png" />
     <None Include="Resources\11.png" />
     <None Include="Resources\SEE1.PNG" />

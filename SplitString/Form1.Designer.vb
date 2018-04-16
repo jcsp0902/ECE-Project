@@ -792,7 +792,7 @@ Partial Class Form1
         '
         Me.PictureBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox1.BackgroundImage = Global.SplitString.My.Resources.Resources._30698321_10210687648896718_1015073562874085376_o___Copy
+        Me.PictureBox1.BackgroundImage = Global.SplitString.My.Resources.Resources.COMRADE
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBox1.Location = New System.Drawing.Point(0, -1)
         Me.PictureBox1.Name = "PictureBox1"
@@ -859,7 +859,7 @@ Partial Class Form1
         'PictureBox8
         '
         Me.PictureBox8.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox8.Location = New System.Drawing.Point(405, 9)
+        Me.PictureBox8.Location = New System.Drawing.Point(63, 9)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(46, 30)
         Me.PictureBox8.TabIndex = 29

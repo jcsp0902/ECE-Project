@@ -110,9 +110,8 @@ Public Class adminmode
 
     End Sub
 
-    Private Sub PictureBox8_Click(sender As Object, e As EventArgs) Handles PictureBox8.Click
-        SerialPort1.Write(1)
-        PictureBox8.BackgroundImage = My.Resources.Ski_trail_rating_symbol_red_circle
+    Private Sub PictureBox8_Click(sender As Object, e As EventArgs)
+
     End Sub
 
     Private Sub Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Panel1.Paint
@@ -343,7 +342,7 @@ Public Class adminmode
 
     Private Sub PictureBox7_Click(sender As Object, e As EventArgs) Handles PictureBox7.Click
         PictureBox7.BackgroundImage = My.Resources.Circle___black_simple_fullpage1
-        PictureBox8.BackgroundImage = My.Resources.orange
+        Button1.BackColor = Color.White
         My.Settings.tra1e = False
         My.Settings.Save()
 
@@ -351,5 +350,10 @@ Public Class adminmode
 
     Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
 
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        SerialPort1.Write(1)
+        Button1.BackColor = Color.Blue
     End Sub
 End Class
