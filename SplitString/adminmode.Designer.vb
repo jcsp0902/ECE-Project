@@ -928,7 +928,6 @@ Partial Class adminmode
         '
         'Button6
         '
-        Me.Button6.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button6.BackColor = System.Drawing.Color.Transparent
         Me.Button6.BackgroundImage = Global.SplitString.My.Resources.Resources.help
         Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
