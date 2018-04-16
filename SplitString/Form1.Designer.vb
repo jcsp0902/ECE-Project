@@ -923,7 +923,6 @@ Partial Class Form1
         Me.Button6.Size = New System.Drawing.Size(47, 43)
         Me.Button6.TabIndex = 57
         Me.Button6.UseVisualStyleBackColor = False
-        Me.Button6.Visible = False
         '
         'Form1
         '
