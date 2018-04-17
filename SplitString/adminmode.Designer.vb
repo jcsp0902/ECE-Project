@@ -737,9 +737,9 @@ Partial Class adminmode
         'Button7
         '
         Me.Button7.BackColor = System.Drawing.Color.White
-        Me.Button7.Location = New System.Drawing.Point(394, 91)
+        Me.Button7.Location = New System.Drawing.Point(399, 106)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(75, 32)
+        Me.Button7.Size = New System.Drawing.Size(75, 25)
         Me.Button7.TabIndex = 57
         Me.Button7.Text = "Respond"
         Me.Button7.UseVisualStyleBackColor = False
@@ -757,7 +757,7 @@ Partial Class adminmode
         'Label45
         '
         Me.Label45.AutoSize = True
-        Me.Label45.Location = New System.Drawing.Point(314, 96)
+        Me.Label45.Location = New System.Drawing.Point(314, 89)
         Me.Label45.Name = "Label45"
         Me.Label45.Size = New System.Drawing.Size(13, 13)
         Me.Label45.TabIndex = 55
@@ -766,7 +766,7 @@ Partial Class adminmode
         'Label44
         '
         Me.Label44.AutoSize = True
-        Me.Label44.Location = New System.Drawing.Point(174, 96)
+        Me.Label44.Location = New System.Drawing.Point(174, 89)
         Me.Label44.Name = "Label44"
         Me.Label44.Size = New System.Drawing.Size(13, 13)
         Me.Label44.TabIndex = 54
@@ -776,7 +776,7 @@ Partial Class adminmode
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(38, 5)
+        Me.Label10.Location = New System.Drawing.Point(38, -2)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(107, 20)
         Me.Label10.TabIndex = 39
@@ -786,16 +786,16 @@ Partial Class adminmode
         '
         Me.PictureBox7.BackgroundImage = Global.SplitString.My.Resources.Resources.Circle___black_simple_fullpage_svg
         Me.PictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox7.Location = New System.Drawing.Point(361, 92)
+        Me.PictureBox7.Location = New System.Drawing.Point(361, 106)
         Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(30, 30)
+        Me.PictureBox7.Size = New System.Drawing.Size(27, 24)
         Me.PictureBox7.TabIndex = 47
         Me.PictureBox7.TabStop = False
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(174, 61)
+        Me.Label2.Location = New System.Drawing.Point(174, 54)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(13, 13)
         Me.Label2.TabIndex = 33
@@ -814,7 +814,7 @@ Partial Class adminmode
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(174, 78)
+        Me.Label3.Location = New System.Drawing.Point(174, 71)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(13, 13)
         Me.Label3.TabIndex = 34
@@ -823,7 +823,7 @@ Partial Class adminmode
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(174, 29)
+        Me.Label1.Location = New System.Drawing.Point(174, 22)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(39, 13)
         Me.Label1.TabIndex = 32
@@ -832,7 +832,7 @@ Partial Class adminmode
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Location = New System.Drawing.Point(174, 45)
+        Me.Label17.Location = New System.Drawing.Point(174, 38)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(45, 13)
         Me.Label17.TabIndex = 45
@@ -842,7 +842,7 @@ Partial Class adminmode
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(41, 59)
+        Me.Label13.Location = New System.Drawing.Point(41, 52)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(76, 16)
         Me.Label13.TabIndex = 41
@@ -852,7 +852,7 @@ Partial Class adminmode
         '
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(41, 42)
+        Me.Label12.Location = New System.Drawing.Point(41, 35)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(104, 16)
         Me.Label12.TabIndex = 40
@@ -862,7 +862,7 @@ Partial Class adminmode
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label16.Location = New System.Drawing.Point(41, 107)
+        Me.Label16.Location = New System.Drawing.Point(41, 100)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(90, 16)
         Me.Label16.TabIndex = 44
@@ -872,7 +872,7 @@ Partial Class adminmode
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(41, 75)
+        Me.Label14.Location = New System.Drawing.Point(41, 68)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(124, 16)
         Me.Label14.TabIndex = 42
@@ -882,7 +882,7 @@ Partial Class adminmode
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(39, 26)
+        Me.Label11.Location = New System.Drawing.Point(39, 19)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(74, 16)
         Me.Label11.TabIndex = 38
@@ -891,7 +891,7 @@ Partial Class adminmode
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(174, 109)
+        Me.Label7.Location = New System.Drawing.Point(174, 102)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(25, 13)
         Me.Label7.TabIndex = 36
@@ -901,7 +901,7 @@ Partial Class adminmode
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(41, 91)
+        Me.Label15.Location = New System.Drawing.Point(41, 84)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(62, 16)
         Me.Label15.TabIndex = 43
